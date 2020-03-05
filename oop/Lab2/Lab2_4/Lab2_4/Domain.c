@@ -1,10 +1,11 @@
 #include "Domain.h"
+#include <string.h>
 
-Masina newMasina(char* nrI, char* model, char* categ) {
+Masina newMasina(char* nrI2, char* model2, char* categ2) {
 	Masina m;
-	m.nrI = nrI;
-	m.model = model;
-	m.categ = categ;
+	m.nrI = nrI2;
+	m.model = model2;
+	m.categ = categ2;
 	return m;
 }
 

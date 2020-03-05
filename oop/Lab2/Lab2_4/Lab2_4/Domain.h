@@ -4,7 +4,7 @@
 	Postconditii - %
 */
 typedef struct {
-	char* nrI, model, categ;
+	char *nrI, *model, *categ;
 }Masina;
 
 /*
