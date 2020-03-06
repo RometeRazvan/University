@@ -1,5 +1,6 @@
 #include "Domain.h"
 #include <string.h>
+#include <stdio.h>
 
 Masina newMasina(char* nrI2, char* model2, char* categ2) {
 	Masina m;
@@ -41,4 +42,14 @@ void setCateg(Masina m, char* s) {
 
 void setMax(Lista l, int max) {
 	l.max = max;
+}
+
+int getMax(Lista l) {
+	return l.max;
+}
+
+void addMasina(Lista l, Masina m) {
+	l.masini[l.max - 1] = m;
+	++l.max;
+	printf("%d\n", l.max);
 }

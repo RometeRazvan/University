@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="643ee45f-d12c-4ccb-80b5-b4f7e4839fe1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/mpp/Lab2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/.vs/Lab2_4/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/.vs/Lab2_4/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/.vs/Lab2_4/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/.vs/Lab2_4/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Debug/Lab2_4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Debug/Lab2_4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Debug/Lab2_4.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Debug/Lab2_4.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Debug/Lab2_4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Debug/Lab2_4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Domain.obj" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Domain.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.log" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/Lab2_4.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/Lab2_4.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Source.obj" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Source.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/TestDomain.obj" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/TestDomain.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/vc141.idb" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/vc141.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/vc141.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/vc141.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Domain.c" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Domain.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Domain.h" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Domain.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/TestDomain.c" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/TestDomain.c" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Ykkufdt5iwp72eU4I4MKQagBF1" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="643ee45f-d12c-4ccb-80b5-b4f7e4839fe1" name="Default Changelist" comment="" />
+      <created>1583494203411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583494203411</updated>
+      <workItem from="1583494204632" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
