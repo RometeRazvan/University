@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eff4896-28f8-4d17-928e-4a339e02f127" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/.vs/Lab2_4/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/.vs/Lab2_4/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/.vs/Lab2_4/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/.vs/Lab2_4/v16/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Debug/Lab2_4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Debug/Lab2_4.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Debug/Lab2_4.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Debug/Lab2_4.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Debug/Lab2_4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Debug/Lab2_4.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Domain.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Domain.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/Lab2_4.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/Lab2_4.lastbuildstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Source.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/Source.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/TestDomain.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/TestDomain.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/vc141.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/vc141.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/vc141.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Debug/vc141.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Domain.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Domain.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Domain.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/Domain.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/TestDomain.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab2_4/Lab2_4/TestDomain.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ASS.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -339,6 +317,7 @@
       <workItem from="1583493993923" duration="2000" />
       <workItem from="1583494015542" duration="13000" />
       <workItem from="1583494157616" duration="35000" />
+      <workItem from="1583494252742" duration="6000" />
     </task>
     <servers />
   </component>
