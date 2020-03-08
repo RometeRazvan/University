@@ -9,7 +9,7 @@ public class Repository<ID> {
 
     public Repository() {
         try {
-            this.conn = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Razvan-Laptop\\Desktop\\An2\\mpp\\BazaLab2");
+            this.conn = DriverManager.getConnection("jdbc:sqlite:C:/Users/Razvan/Desktop/University/mpp/BazaLab2");
         }
         catch (Exception e) {
             System.out.println(e.getMessage());

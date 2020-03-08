@@ -1,8 +1,13 @@
 #include <stdio.h>
+#include "Domain.h"
 #include "TestDomain.h"
+#include "TestRepository.h"
+#include "TestService.h"
 
 void testAll() {
-	testAllDomain();
+	testDomainAll();
+	testRepositoryAll();
+	//testAllService();
 }
 
 int main() {

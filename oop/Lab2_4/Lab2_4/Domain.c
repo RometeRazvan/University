@@ -1,55 +1,34 @@
 #include "Domain.h"
-#include <string.h>
-#include <stdio.h>
+#include <stdlib.h>
 
-Masina newMasina(char* nrI2, char* model2, char* categ2) {
-	Masina m;
-	m.nrI = nrI2;
-	m.model = model2;
-	m.categ = categ2;
+Masina* newMasina(char* nrI, char* model, char* categ) {
+	Masina* m = malloc(sizeof(Masina));
+	m->categ = categ;
+	m->model = model;
+	m->nrI = nrI;
 	return m;
 }
 
-Lista newLista() {
-	Lista l;
-	l.max = 1;
-	return l;
+Masina newMasinaS(char* nrI, char* model, char* categ) {
+	Masina m;
+	m.categ = categ;
+	m.model = model;
+	m.nrI = nrI;
+	return m;
 }
 
-char* getNrI(Masina m) {
-	return m.nrI;
+char* getNrI(Masina *m) {
+	return m->nrI;
 }
 
-char* getModel(Masina m) {
-	return m.model;
+char* getModel(Masina* m) {
+	return m->model;
 }
 
-char* getCateg(Masina m) {
-	return m.categ;
+char* getCateg(Masina* m) {
+	return m->categ;
 }
 
-void setNrI(Masina m, char* s) {
-	m.nrI = s;
-}
-
-void setModel(Masina m, char* s) {
-	m.model = s;
-}
-
-void setCateg(Masina m, char* s) {
-	m.categ = s;
-}
-
-void setMax(Lista l, int max) {
-	l.max = max;
-}
-
-int getMax(Lista l) {
-	return l.max;
-}
-
-void addMasina(Lista l, Masina m) {
-	l.masini[l.max - 1] = m;
-	++l.max;
-	printf("%d\n", l.max);
+void destructorMasina(Masina* m) {
+	free(m);
 }

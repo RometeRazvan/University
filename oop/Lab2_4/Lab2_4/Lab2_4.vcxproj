@@ -117,12 +117,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Domain.h" />
+    <ClInclude Include="Repository.h" />
+    <ClInclude Include="Service.h" />
     <ClInclude Include="TestDomain.h" />
+    <ClInclude Include="TestRepository.h" />
+    <ClInclude Include="TestService.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Domain.c" />
+    <ClCompile Include="Repository.c" />
+    <ClCompile Include="Service.c" />
     <ClCompile Include="Source.c" />
     <ClCompile Include="TestDomain.c" />
+    <ClCompile Include="TestRepository.c" />
+    <ClCompile Include="TestService.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

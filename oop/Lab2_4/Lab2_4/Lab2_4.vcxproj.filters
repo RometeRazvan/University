@@ -21,6 +21,18 @@
     <ClInclude Include="TestDomain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Repository.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestRepository.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Domain.c">
@@ -30,6 +42,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Repository.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestRepository.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestService.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
