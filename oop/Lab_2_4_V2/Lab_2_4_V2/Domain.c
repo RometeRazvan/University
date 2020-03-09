@@ -22,5 +22,8 @@ char* getCateg(Masina* m) {
 }
 
 void distructorMasina(Masina* m) {
+	//free(m->categ);
+	//free(m->nrI);
+	//free(m->model);
 	free(m);
 }

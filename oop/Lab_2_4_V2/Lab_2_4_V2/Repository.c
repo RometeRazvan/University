@@ -14,6 +14,7 @@ void distructorLista(Lista* l) {
 	for (int i = 0; i < l->lg; ++i) {
 		l->f(l->lista[i]);
 	}
+	free(l->lista);
 	free(l);
 }
 
@@ -46,7 +47,7 @@ void adaugareMasinaR(Lista* l, ElemT m) {
 
 ElemT stergeMasinaR(Lista* l, int poz) {
 	int j = 0, val = 0;
-	ElemT m = malloc(sizeof(ElemT));
+	ElemT *m;
 	ElemT* v = malloc(sizeof(ElemT) * l->capacitate);
 	for (int i = 0; i < l->lg; ++i) {
 		if (i == poz) {
