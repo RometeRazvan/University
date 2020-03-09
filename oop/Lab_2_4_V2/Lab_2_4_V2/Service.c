@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int modelCrescator(Masina* a, Masina* b) {
+/*int modelCrescator(Masina* a, Masina* b) {
 	if (strcmp(getModel(a), getModel(b)) == 1)
 		return 1;
 	else return 0;
@@ -45,7 +45,7 @@ void sorter(Lista* l, sortFunction f) {
 			}
 		}
 	}
-}
+}*/
 
 Serv* newService(Distructor f) {
 	Serv* s = malloc(sizeof(Serv));
@@ -101,7 +101,7 @@ Lista* filtreaza(Serv* s, char* model, char* categ) {
 	return l;
 }
 
-void sorteaza(Serv* s, char* modelSauCateg, int cresc) {
+/*void sorteaza(Serv* s, char* modelSauCateg, int cresc) {
 	if (strcmp(modelSauCateg, "model") == 0) {
 		if (cresc == 1)
 			sorter(s->lista, modelCrescator);
@@ -114,7 +114,8 @@ void sorteaza(Serv* s, char* modelSauCateg, int cresc) {
 		else
 			sorter(s->lista, categDescrescator);
 	}
-}
+}*/
+
 Masina* getMasinaS(Serv* s, int poz) {
 	return getMasinaR(s->lista, poz);
 }

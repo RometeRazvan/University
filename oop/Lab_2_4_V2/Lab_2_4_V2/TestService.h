@@ -1,3 +1,4 @@
+#pragma once
 void testCreate();
 void testAdauga();
 void testActualizeaza();

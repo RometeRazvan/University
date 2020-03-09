@@ -61,6 +61,7 @@ void testInchiriazaSiReturneaza() {
 	assert(strcmp(getModel(getMasinaSI(s, 1)), "2011") == 0);
 	assert(strcmp(getModel(getMasinaSI(s, 2)), "2012") == 0);
 	assert(strcmp(getModel(getMasinaSI(s, 3)), "2013") == 0);
+	assert(getLgInc(s) == 4);
 
 	returneaza(s, 1);
 	returneaza(s, 0);
@@ -94,21 +95,21 @@ void testFiltreaza() {
 }
 
 void testSorteaza() {
-	Serv* s = newService(distructorLista);
+	/*Serv* s = newService(distructorLista);
 
 	adauga(s, "CJ 07 SRT", "2013", "SUV");
 	adauga(s, "CJ 07 RTD", "2011", "SUV");
 	adauga(s, "CJ 07 SRT", "2012", "SUV");
 	adauga(s, "CJ 07 MGS", "2010", "SUV");
 
-	sorteaza(s, "model", 1);
+	//sorteaza(s, "model", 1);
 
 	/*assert(strcmp(getModel(getMasinaS(s, 1)), "2010") == 0);
 	assert(strcmp(getModel(getMasinaS(s, 1)), "2011") == 0);
 	assert(strcmp(getModel(getMasinaS(s, 1)), "2012") == 0);
 	assert(strcmp(getModel(getMasinaS(s, 1)), "2013") == 0);*/
 
-	distructorService(s);
+	//distructorService(s);
 }
 
 void testServiceAll() {

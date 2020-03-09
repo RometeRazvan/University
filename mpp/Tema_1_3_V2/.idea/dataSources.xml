@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="IdentifierLab_1_3" uuid="c8dcbaf9-3f49-4a20-9378-d852cabb6ee0">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Razvan-Laptop\Desktop\University\mpp\Tema_1_3_V2\Baze de date\IdentifierLab_1_3</jdbc-url>
+    </data-source>
+  </component>
+</project>

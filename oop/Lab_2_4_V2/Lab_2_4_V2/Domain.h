@@ -1,3 +1,4 @@
+#pragma once
 typedef struct {
 	char* nrI, * model, * categ;
 }Masina;

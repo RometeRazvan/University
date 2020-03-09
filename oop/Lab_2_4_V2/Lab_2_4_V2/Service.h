@@ -1,11 +1,14 @@
 #pragma once
 #include "Repository.h"
+//#include "Validator.h"
+
 //#include "Sorter.h"
 
 typedef struct {
 	Lista* lista;
 	Lista* inchirieri;
 	Distructor f;
+	//Validator validator;
 }Serv;
 
 typedef void* Elem;
