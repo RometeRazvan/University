@@ -92,6 +92,7 @@ void testFiltreaza() {
 	assert(strcmp(getNrI(getMasinaR(l, 2)), "CJ 07 MGS") == 0);
 	
 	distructorLista(l);
+	distructorService(s);
 }
 
 void testSorteaza() {

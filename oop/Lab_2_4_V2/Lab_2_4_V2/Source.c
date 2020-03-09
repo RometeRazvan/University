@@ -13,8 +13,8 @@
 void testAll() {
 	testDomainAll();
 	testRepositoryAll();
-	//testServiceAll();
-	//testValidatorAll();
+	testServiceAll();
+	testValidatorAll();
 }
 
 int main() {

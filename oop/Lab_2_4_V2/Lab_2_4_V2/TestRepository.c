@@ -53,12 +53,12 @@ void testDelete() {
 
 	Masina* m = stergeMasinaR(l, 2);
 
-	/*assert(strcmp(getModel(m), "2012") == 0);
+	assert(strcmp(getModel(m), "2012") == 0);
 	assert(getLg(l) == 3);
 
 	assert(strcmp(getModel(getMasinaR(l,0)), "2010") == 0);
 	assert(strcmp(getModel(getMasinaR(l,1)), "2011") == 0);
-	assert(strcmp(getModel(getMasinaR(l,2)), "2013") == 0);*/
+	assert(strcmp(getModel(getMasinaR(l,2)), "2013") == 0);
 
 	distructorMasina(m);
 	distructorLista(l);
@@ -81,7 +81,7 @@ void testRepositoryAll() {
 	testLista();
 	testAdd();
 	testDelete();
-	//testUpdate();
+	testUpdate();
 
 	printf("Finalizare testRepo !\n");
 }

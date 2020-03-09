@@ -47,7 +47,7 @@ void adaugareMasinaR(Lista* l, ElemT m) {
 
 ElemT stergeMasinaR(Lista* l, int poz) {
 	int j = 0, val = 0;
-	ElemT *m;
+	ElemT m = NULL;
 	ElemT* v = malloc(sizeof(ElemT) * l->capacitate);
 	for (int i = 0; i < l->lg; ++i) {
 		if (i == poz) {
@@ -61,8 +61,11 @@ ElemT stergeMasinaR(Lista* l, int poz) {
 	}
 	free(l->lista);
 	l->lista = v;
-	if (val == 1) --l->lg;
-	return m;
+	if (val == 1) {
+		--l->lg;
+		return m;
+	}
+	return NULL;
 }
 
 void updateMasinaR(Lista* l, int poz, ElemT m) {
@@ -75,7 +78,7 @@ void updateMasinaR(Lista* l, int poz, ElemT m) {
 }
 
 ElemT getMasinaR(Lista* l, int poz) {
-	ElemT m = malloc(sizeof(ElemT));
+	ElemT m = NULL;
 	for (int i = 0; i < l->lg; ++i)
 		if (i == poz)
 			m = l->lista[i];
