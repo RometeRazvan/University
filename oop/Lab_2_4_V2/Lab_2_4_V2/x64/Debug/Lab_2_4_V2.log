@@ -1,2 +1,2 @@
-﻿  Repository.c
-c:\users\razvan-laptop\desktop\university\oop\lab_2_4_v2\lab_2_4_v2\repository.c(65): error C4703: potentially uninitialized local pointer variable 'm' used
+﻿  Source.c
+  Lab_2_4_V2.vcxproj -> C:\Users\Razvan-Laptop\Desktop\University\oop\Lab_2_4_V2\x64\Debug\Lab_2_4_V2.exe

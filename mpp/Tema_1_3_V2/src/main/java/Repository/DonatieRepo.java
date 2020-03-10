@@ -2,6 +2,7 @@ package Repository;
 
 import Domain.DbAdress;
 import Domain.Donatie;
+import Domain.Entity;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -45,4 +46,25 @@ public class DonatieRepo<ID> implements IRepository<ID, Donatie<ID>> {
         }
         return null;
     }
+
+    @Override
+    public void delete(ID id) {
+        try (Statement stmt = conn.createStatement()) {
+            stmt.executeQuery("Delete from Donatii where id = "+id+"");
+        }
+        catch (Exception e) {
+            System.out.println("Couldn't delete donatio");
+        }
+    }
+
+    @Override
+    public void update(Donatie<ID> idDonatie) {
+        try (Statement stmt = conn.createStatement()) {
+            stmt.executeQuery("Update Donatii set nume ='"+idDonatie.getName()+"', adresa='"+idDonatie.getAdresa()+"', nrTel='"+idDonatie.getNrTel()+"' where id = '"+idDonatie.getId()+"' ");
+        }
+        catch (Exception e) {
+            System.out.println("Couldn't update donation");
+        }
+    }
+
 }

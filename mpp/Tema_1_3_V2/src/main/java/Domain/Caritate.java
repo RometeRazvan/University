@@ -28,7 +28,7 @@ public class Caritate<ID> implements Entity<ID> {
         this.id = id;
     }
 
-    public String getname() {
+    public String getName() {
         return name;
     }
 

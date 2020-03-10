@@ -1,6 +1,7 @@
 package Repository;
 
 import Domain.DbAdress;
+import Domain.Entity;
 import Domain.User;
 import com.sun.org.apache.xpath.internal.operations.Bool;
 
@@ -46,4 +47,26 @@ public class UserRepo<ID> implements IRepository<ID, User<ID>> {
         }
         return null;
     }
+
+    @Override
+    public void delete(ID id) {
+        try (Statement stmt = conn.createStatement()) {
+            stmt.executeQuery("Delete from Users where id = "+id+"");
+        }
+        catch (Exception e) {
+            System.out.println("Couldn't delete user");
+        }
+    }
+
+    @Override
+    public void update(User<ID> idUser) {
+        try (Statement stmt = conn.createStatement()) {
+            stmt.executeQuery("Update Users set name ='"+idUser.getName()+"', password='"+idUser.getPassword()+"' where id = '"+idUser.getId()+"' ");
+        }
+        catch (Exception e) {
+            System.out.println("Couldn't update user");
+        }
+    }
+
+
 }
