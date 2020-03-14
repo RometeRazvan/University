@@ -63,4 +63,9 @@ public class CazuriRepo<ID> implements IRepository<ID, Caritate<ID>> {
         }
     }
 
+    @Override
+    public Integer getLg() {
+        return null;
+    }
+
 }

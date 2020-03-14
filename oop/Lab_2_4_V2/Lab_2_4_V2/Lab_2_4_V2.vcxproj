@@ -145,6 +145,7 @@
     <ClInclude Include="TestRepository.h" />
     <ClInclude Include="TestService.h" />
     <ClInclude Include="TestValidator.h" />
+    <ClInclude Include="Ui.h" />
     <ClInclude Include="Validator.h" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +157,7 @@
     <ClCompile Include="TestRepository.c" />
     <ClCompile Include="TestService.c" />
     <ClCompile Include="TestValidator.c" />
+    <ClCompile Include="Ui.c" />
     <ClCompile Include="Validator.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -5,6 +5,7 @@
 #include "TestService.h"
 #include "TestValidator.h"
 #include "Service.h"
+#include "Ui.h"
 #define _CRTDBG_MAP_ALLOC
 #include <stdlib.h>
 #include <crtdbg.h>
@@ -20,6 +21,13 @@ void testAll() {
 int main() {
 	testAll();
 	//Serv* s = newService(distructorLista);
+
+	//Ui* ui = newUi(distructorService);
+
+	/*run(ui);
+
+	distructorUi(ui);*/
+
 	_CrtDumpMemoryLeaks();
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 	_CrtDumpMemoryLeaks();

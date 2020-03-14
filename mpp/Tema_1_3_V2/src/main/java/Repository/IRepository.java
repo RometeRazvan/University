@@ -10,5 +10,6 @@ public interface IRepository<ID, E extends Entity<ID>> {
     public E get(ID id);
     public void delete(ID id);
     public void update(E e);
+    public Integer getLg();
 
 }

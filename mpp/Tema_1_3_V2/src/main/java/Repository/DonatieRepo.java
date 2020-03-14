@@ -67,4 +67,9 @@ public class DonatieRepo<ID> implements IRepository<ID, Donatie<ID>> {
         }
     }
 
+    @Override
+    public Integer getLg() {
+        return null;
+    }
+
 }

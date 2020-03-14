@@ -1,0 +1,4 @@
+<bean id="User" class="Domain.User">
+    <constructor-arg index="0" value="Razvan" />
+    <constructor-arg index="1" value="Romete"/>
+</bean>

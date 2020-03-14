@@ -2,6 +2,7 @@ package Domain;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -13,12 +14,22 @@ public class DbAdress {
 
     public Connection getNewConnection() {
         Properties prop = new Properties();
+        String fileName = "db.properties";
+        InputStream inputStream;
+
         try {
-            prop.load(new FileInputStream("C:\\Users\\Razvan-Laptop\\Desktop\\University\\mpp\\Tema_1_3_V2\\src\\main\\resources\\db.properties"));
+            inputStream = getClass().getClassLoader().getResourceAsStream(fileName);
+            prop.load(inputStream);
+        }
+        catch (IOException e) {
+            System.out.println("Nu s-a putut citit fisierul db.properties" + e.getMessage());
+        }
+        /*try {
+            prop.load(new FileInputStream("src\\main\\resources\\db.properties"));
         }
         catch (IOException e) {
             System.out.println("Nu s-a putut incarca fisierul cu proprietati " + e.getMessage());
-        }
+        }*/
         String url = prop.getProperty("jbdc.url");
         Connection con = null;
         try {
