@@ -1,0 +1,21 @@
+[2020-03-16 19:00:02] [info] Start Program:
+Path:"C:\\Users\\Razvan\\Desktop\\University\\oop\\Lab_2_4_Static_V2\\Debug\\Lab_2_4_Static_V2.exe"
+Arguments:
+Working directory: "C:\\Users\\Razvan\\Desktop\\University\\oop\\Lab_2_4_Static_V2\\Lab_2_4_Static_V2\\"
+Modules: Selected: C:\Users\Razvan\Desktop\University\oop\Lab_2_4_Static_V2\Debug\Lab_2_4_Static_V2.exe Excluded: 
+Sources: Selected: C:\Users\Razvan\Desktop\University\oop\Lab_2_4_Static_V2\Lab_2_4_Static_V2 Excluded: Ui.h Ui.c 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\Razvan\AppData\Local\Temp\dnxbydit.nd2 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2020-03-16 19:00:02] [info] Module: C:\Users\Razvan\Desktop\University\oop\Lab_2_4_Static_V2\Debug\Lab_2_4_Static_V2.exe is selected because it matches selected pattern: C:\Users\Razvan\Desktop\University\oop\Lab_2_4_Static_V2\Debug\Lab_2_4_Static_V2.exe
+[2020-03-16 19:00:02] [info] ----------------------------------------------------
+[2020-03-16 19:00:02] [info] Coverage binary generated in file: C:\Users\Razvan\AppData\Local\Temp\dnxbydit.nd2
+[2020-03-16 19:00:02] [info] ----------------------------------------------------

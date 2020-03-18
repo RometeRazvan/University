@@ -4,60 +4,20 @@
 #include <stdio.h>
 #include <string.h>
 
-/*int modelCrescator(Masina* a, Masina* b) {
-	if (strcmp(getModel(a), getModel(b)) == 1)
-		return 1;
-	else return 0;
-}
-
-int modelDescrescator(Masina* a, Masina* b) {
-	if (strcmp(getModel(a), getModel(b)) == 1)
-		return 0;
-	else return 1;
-}
-
-int categCrescator(Masina* a, Masina* b) {
-	if (strcmp(getCateg(a), getCateg(b)) == 1)
-		return 1;
-	else return 0;
-}
-
-int categDescrescator(Masina* a, Masina* b) {
-	if (strcmp(getCateg(a), getCateg(b)) == 1)
-		return 0;
-	else return 1;
-}
-
-void sorter(Lista* l, sortFunction f) {
-	int val = 0;
-	while (!val) {
-		val = 1;
-		for (int i = 0; i < getLg(l) - 1; ++i) {
-			if (f(getMasinaR(l, i), getMasinaR(l, i + 1)) == 0) {
-				Masina* m = getMasinaR(l, i);
-				Masina* m2 = getMasinaR(l, i + 1);
-				Masina* m4 = newMasina(getNrI(m), getModel(m), getCateg(m));
-				printf("1");
-				m = m2;
-				m2 = m4;
-				distructorMasina(m4);
-				val = 0;
-			}
-		}
-	}
-}*/
-
 Serv* newService(Distructor f) {
 	Serv* s = malloc(sizeof(Serv));
 	s->lista = newLista(distructorMasina);
 	s->inchirieri = newLista(distructorMasina);
 	s->f = f;
+	Validator* v = newValidator(valideazaMasina);
+	s->validator = v;
 	return s;
 }
 
 void distructorService(Serv* s) {
 	s->f(s->inchirieri);
 	s->f(s->lista);
+	distructorValidator(s->validator);
 	free(s);
 }
 
@@ -69,24 +29,55 @@ int getLgInc(Serv* s) {
 	return getLg(s->inchirieri);
 }
 
-void adauga(Serv* s, char* nrI, char* model, char* categ) {
+Lista* getListaMasini(Serv* s) {
+	return s->lista;
+}
+
+Lista* getListaInc(Serv* s) {
+	return s->inchirieri;
+}
+
+int adauga(Serv* s, char* nrI, char* model, char* categ) {
 	Masina* m = newMasina(nrI, model, categ);
+
+	if (s->validator->validatorMasina(m) == 0) {
+		distructorMasina(m);
+		return 0;
+	} 
+
 	adaugareMasinaR(s->lista, m);
+	return 1;
 }
 
-void actualizeaza(Serv* s, int poz, char* nrI, char* model, char* categ) {
+int actualizeaza(Serv* s, int poz, char* nrI, char* model, char* categ) {
 	Masina* m = newMasina(nrI, model, categ);
+
+	if (s->validator->validatorMasina(m) == 0 
+		|| (poz < 0 || poz > getLgLista(s)) ) {
+		distructorMasina(m);
+		return 0;
+	}
+
 	updateMasinaR(s->lista, poz, m);
+	return 1;
 }
 
-void inchiriaza(Serv* s, int poz) {
+int inchiriaza(Serv* s, int poz) {
+	if (poz < 0 || poz > getLgLista(s))
+		return 0;
+
 	Masina* m = stergeMasinaR(s->lista, poz);
 	adaugareMasinaR(s->inchirieri, m);
+	return 1;
 }
 
-void returneaza(Serv* s, int poz) {
+int returneaza(Serv* s, int poz) {
+	if (poz < 0 || poz > getLgInc(s))
+		return 0;
+
 	Masina* m = stergeMasinaR(s->inchirieri, poz);
 	adaugareMasinaR(s->lista, m);
+	return 1;
 }
 
 Lista* filtreaza(Serv* s, char* model, char* categ) {
@@ -101,25 +92,28 @@ Lista* filtreaza(Serv* s, char* model, char* categ) {
 	return l;
 }
 
-/*void sorteaza(Serv* s, char* modelSauCateg, int cresc) {
-	if (strcmp(modelSauCateg, "model") == 0) {
-		if (cresc == 1)
-			sorter(s->lista, modelCrescator);
-		else 
-			sorter(s->lista, modelDescrescator);
-	}
-	else {
-		if (cresc == 1)
-			sorter(s->lista, categCrescator);
-		else
-			sorter(s->lista, categDescrescator);
-	}
-}*/
-
 Masina* getMasinaS(Serv* s, int poz) {
 	return getMasinaR(s->lista, poz);
 }
 
 Masina* getMasinaSI(Serv* s, int poz) {
 	return getMasinaR(s->inchirieri, poz);
+}
+
+Lista* sorteaza(Serv* s, char* modelSauCateg, int cresc) {
+
+	if (strcmp(modelSauCateg, "model") == 0) {
+		if (cresc > 0)
+			return sortList(s->lista, modelCrescator);
+		else return sortList(s->lista, modelDescrescator);
+	}
+	else if (strcmp(modelSauCateg, "categ") == 0) {
+		if (cresc > 0)
+			return sortList(s->lista, categCrescator);
+		else return sortList(s->lista, categDescrescator);
+	}
+
+	Lista* l = newLista(distructorMasina);
+
+	return l;
 }

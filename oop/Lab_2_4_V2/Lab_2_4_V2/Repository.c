@@ -28,11 +28,14 @@ int getCapac(Lista* l) {
 
 void checkRealloc(Lista* l) {
 	if (l->lg == l->capacitate) {
+
 		int nCap = 2 * l->capacitate;
 		ElemT* v = malloc(sizeof(ElemT) * nCap);
+
 		for (int i = 0; i < l->lg; ++i) {
 			v[i] = l->lista[i];
 		}
+
 		free(l->lista);
 		l->lista = v;
 		l->capacitate = nCap;
@@ -41,6 +44,7 @@ void checkRealloc(Lista* l) {
 
 void adaugareMasinaR(Lista* l, ElemT m) {
 	checkRealloc(l);
+
 	l->lista[l->lg] = m;
 	++l->lg;
 }
@@ -49,6 +53,7 @@ ElemT stergeMasinaR(Lista* l, int poz) {
 	int j = 0, val = 0;
 	ElemT m = NULL;
 	ElemT* v = malloc(sizeof(ElemT) * l->capacitate);
+
 	for (int i = 0; i < l->lg; ++i) {
 		if (i == poz) {
 			val = 1;
@@ -59,12 +64,15 @@ ElemT stergeMasinaR(Lista* l, int poz) {
 			++j;
 		}
 	}
+
 	free(l->lista);
 	l->lista = v;
+
 	if (val == 1) {
 		--l->lg;
 		return m;
 	}
+
 	return NULL;
 }
 
@@ -79,8 +87,10 @@ void updateMasinaR(Lista* l, int poz, ElemT m) {
 
 ElemT getMasinaR(Lista* l, int poz) {
 	ElemT m = NULL;
+
 	for (int i = 0; i < l->lg; ++i)
 		if (i == poz)
 			m = l->lista[i];
+
 	return m;
 }

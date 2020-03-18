@@ -60,6 +60,8 @@ void testDelete() {
 	assert(strcmp(getModel(getMasinaR(l,1)), "2011") == 0);
 	assert(strcmp(getModel(getMasinaR(l,2)), "2013") == 0);
 
+	stergeMasinaR(l, 10);
+
 	distructorMasina(m);
 	distructorLista(l);
 
@@ -82,6 +84,5 @@ void testRepositoryAll() {
 	testAdd();
 	testDelete();
 	testUpdate();
-
 	printf("Finalizare testRepo !\n");
 }
