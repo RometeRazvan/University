@@ -23,7 +23,7 @@ Lista* sortList(Lista* l, choose fc) {
 
 					if(check[j] == 1 && i != j)
 
-						if (fc(getMasinaR(l, i), getMasinaR(l, j)) != 1) {
+						if (fc(getE(l, i), getE(l, j)) != 1) {
 
 							val = 0;
 							break;							
@@ -34,9 +34,9 @@ Lista* sortList(Lista* l, choose fc) {
 
 					check[i] = 0;
 
-					Masina* m = getMasinaR(l, i);
+					Masina* m = getE(l, i);
 					Masina* nm = newMasina(getNrI(m), getModel(m), getCateg(m));
-					adaugareMasinaR(nl, nm);
+					adaugareE(nl, nm);
 
 					++n;
 				}

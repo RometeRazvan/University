@@ -102,9 +102,9 @@ void testFiltreaza() {
 
 	Lista* l = filtreaza(s, "2010", "SUV");
 
-	assert(strcmp(getNrI(getMasinaR(l, 0)), "CJ 07 TRM") == 0);
-	assert(strcmp(getNrI(getMasinaR(l, 1)), "CJ 07 SRT") == 0);
-	assert(strcmp(getNrI(getMasinaR(l, 2)), "CJ 07 MGS") == 0);
+	assert(strcmp(getNrI(getE(l, 0)), "CJ 07 TRM") == 0);
+	assert(strcmp(getNrI(getE(l, 1)), "CJ 07 SRT") == 0);
+	assert(strcmp(getNrI(getE(l, 2)), "CJ 07 MGS") == 0);
 	
 	distructorLista(l);
 	distructorService(s);
@@ -125,53 +125,53 @@ void testSorteaza() {
 
 	Lista* l = sorteaza(s, "model", 1);
 
-	assert(strcmp(getModel(getMasinaR(l, 0)), "2011") == 0);
-	assert(strcmp(getModel(getMasinaR(l, 1)), "2012") == 0);
-	assert(strcmp(getModel(getMasinaR(l, 2)), "2013") == 0);
-	assert(strcmp(getModel(getMasinaR(l, 3)), "2014") == 0);
-	assert(strcmp(getModel(getMasinaR(l, 4)), "2015") == 0);
-	assert(strcmp(getModel(getMasinaR(l, 5)), "2016") == 0);
-	assert(strcmp(getModel(getMasinaR(l, 6)), "2017") == 0);
-	assert(strcmp(getModel(getMasinaR(l, 7)), "2018") == 0);
+	assert(strcmp(getModel(getE(l, 0)), "2011") == 0);
+	assert(strcmp(getModel(getE(l, 1)), "2012") == 0);
+	assert(strcmp(getModel(getE(l, 2)), "2013") == 0);
+	assert(strcmp(getModel(getE(l, 3)), "2014") == 0);
+	assert(strcmp(getModel(getE(l, 4)), "2015") == 0);
+	assert(strcmp(getModel(getE(l, 5)), "2016") == 0);
+	assert(strcmp(getModel(getE(l, 6)), "2017") == 0);
+	assert(strcmp(getModel(getE(l, 7)), "2018") == 0);
 
 	distructorLista(l);
 
 	l = sorteaza(s, "model", 0);
 
-	assert(strcmp(getModel(getMasinaR(l, 7)), "2011") == 0);
-	assert(strcmp(getModel(getMasinaR(l, 6)), "2012") == 0);
-	assert(strcmp(getModel(getMasinaR(l, 5)), "2013") == 0);
-	assert(strcmp(getModel(getMasinaR(l, 4)), "2014") == 0);
-	assert(strcmp(getModel(getMasinaR(l, 3)), "2015") == 0);
-	assert(strcmp(getModel(getMasinaR(l, 2)), "2016") == 0);
-	assert(strcmp(getModel(getMasinaR(l, 1)), "2017") == 0);
-	assert(strcmp(getModel(getMasinaR(l, 0)), "2018") == 0);
+	assert(strcmp(getModel(getE(l, 7)), "2011") == 0);
+	assert(strcmp(getModel(getE(l, 6)), "2012") == 0);
+	assert(strcmp(getModel(getE(l, 5)), "2013") == 0);
+	assert(strcmp(getModel(getE(l, 4)), "2014") == 0);
+	assert(strcmp(getModel(getE(l, 3)), "2015") == 0);
+	assert(strcmp(getModel(getE(l, 2)), "2016") == 0);
+	assert(strcmp(getModel(getE(l, 1)), "2017") == 0);
+	assert(strcmp(getModel(getE(l, 0)), "2018") == 0);
 
 	distructorLista(l);
 
 	l = sorteaza(s, "categ", 1);
 
-	assert(strcmp(getCateg(getMasinaR(l, 0)), "DUSTER1") == 0);
-	assert(strcmp(getCateg(getMasinaR(l, 1)), "DUSTER2") == 0);
-	assert(strcmp(getCateg(getMasinaR(l, 2)), "DUSTER3") == 0);
-	assert(strcmp(getCateg(getMasinaR(l, 3)), "DUSTER4") == 0);
-	assert(strcmp(getCateg(getMasinaR(l, 4)), "DUSTER5") == 0);
-	assert(strcmp(getCateg(getMasinaR(l, 5)), "DUSTER6") == 0);
-	assert(strcmp(getCateg(getMasinaR(l, 6)), "DUSTER7") == 0);
-	assert(strcmp(getCateg(getMasinaR(l, 7)), "DUSTER8") == 0);
+	assert(strcmp(getCateg(getE(l, 0)), "DUSTER1") == 0);
+	assert(strcmp(getCateg(getE(l, 1)), "DUSTER2") == 0);
+	assert(strcmp(getCateg(getE(l, 2)), "DUSTER3") == 0);
+	assert(strcmp(getCateg(getE(l, 3)), "DUSTER4") == 0);
+	assert(strcmp(getCateg(getE(l, 4)), "DUSTER5") == 0);
+	assert(strcmp(getCateg(getE(l, 5)), "DUSTER6") == 0);
+	assert(strcmp(getCateg(getE(l, 6)), "DUSTER7") == 0);
+	assert(strcmp(getCateg(getE(l, 7)), "DUSTER8") == 0);
 
 	distructorLista(l);
 
 	l = sorteaza(s, "categ", 0);
 
-	assert(strcmp(getCateg(getMasinaR(l, 7)), "DUSTER1") == 0);
-	assert(strcmp(getCateg(getMasinaR(l, 6)), "DUSTER2") == 0);
-	assert(strcmp(getCateg(getMasinaR(l, 5)), "DUSTER3") == 0);
-	assert(strcmp(getCateg(getMasinaR(l, 4)), "DUSTER4") == 0);
-	assert(strcmp(getCateg(getMasinaR(l, 3)), "DUSTER5") == 0);
-	assert(strcmp(getCateg(getMasinaR(l, 2)), "DUSTER6") == 0);
-	assert(strcmp(getCateg(getMasinaR(l, 1)), "DUSTER7") == 0);
-	assert(strcmp(getCateg(getMasinaR(l, 0)), "DUSTER8") == 0);
+	assert(strcmp(getCateg(getE(l, 7)), "DUSTER1") == 0);
+	assert(strcmp(getCateg(getE(l, 6)), "DUSTER2") == 0);
+	assert(strcmp(getCateg(getE(l, 5)), "DUSTER3") == 0);
+	assert(strcmp(getCateg(getE(l, 4)), "DUSTER4") == 0);
+	assert(strcmp(getCateg(getE(l, 3)), "DUSTER5") == 0);
+	assert(strcmp(getCateg(getE(l, 2)), "DUSTER6") == 0);
+	assert(strcmp(getCateg(getE(l, 1)), "DUSTER7") == 0);
+	assert(strcmp(getCateg(getE(l, 0)), "DUSTER8") == 0);
 
 	distructorLista(l);
 

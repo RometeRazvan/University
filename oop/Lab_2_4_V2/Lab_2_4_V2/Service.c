@@ -45,7 +45,7 @@ int adauga(Serv* s, char* nrI, char* model, char* categ) {
 		return 0;
 	} 
 
-	adaugareMasinaR(s->lista, m);
+	adaugareE(s->lista, m);
 	return 1;
 }
 
@@ -58,7 +58,7 @@ int actualizeaza(Serv* s, int poz, char* nrI, char* model, char* categ) {
 		return 0;
 	}
 
-	updateMasinaR(s->lista, poz, m);
+	updateE(s->lista, poz, m);
 	return 1;
 }
 
@@ -66,8 +66,8 @@ int inchiriaza(Serv* s, int poz) {
 	if (poz < 0 || poz > getLgLista(s))
 		return 0;
 
-	Masina* m = stergeMasinaR(s->lista, poz);
-	adaugareMasinaR(s->inchirieri, m);
+	Masina* m = stergereE(s->lista, poz);
+	adaugareE(s->inchirieri, m);
 	return 1;
 }
 
@@ -75,8 +75,8 @@ int returneaza(Serv* s, int poz) {
 	if (poz < 0 || poz > getLgInc(s))
 		return 0;
 
-	Masina* m = stergeMasinaR(s->inchirieri, poz);
-	adaugareMasinaR(s->lista, m);
+	Masina* m = stergereE(s->inchirieri, poz);
+	adaugareE(s->lista, m);
 	return 1;
 }
 
@@ -86,18 +86,18 @@ Lista* filtreaza(Serv* s, char* model, char* categ) {
 		Masina* m = getMasinaS(s, i);
 		if ((strcmp(getModel(m), model) == 0) && (strcmp(getCateg(m), categ) == 0)) {
 			Masina* mf = newMasina(getNrI(m), getModel(m), getCateg(m));
-			adaugareMasinaR(l, mf);
+			adaugareE(l, mf);
 		}
 	}
 	return l;
 }
 
 Masina* getMasinaS(Serv* s, int poz) {
-	return getMasinaR(s->lista, poz);
+	return getE(s->lista, poz);
 }
 
 Masina* getMasinaSI(Serv* s, int poz) {
-	return getMasinaR(s->inchirieri, poz);
+	return getE(s->inchirieri, poz);
 }
 
 Lista* sorteaza(Serv* s, char* modelSauCateg, int cresc) {

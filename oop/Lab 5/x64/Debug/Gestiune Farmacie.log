@@ -1,0 +1,12 @@
+﻿  domain.c
+  medicamentService.c
+  repo.c
+  sort.c
+  test.c
+  validate.c
+  Generating Code...
+  main.c
+  ui.c
+C:\Users\Razvan-Laptop\Desktop\New folder\ui.c(117,42): warning C4047: 'function': 'int' differs in levels of indirection from 'char [1]'
+C:\Users\Razvan-Laptop\Desktop\New folder\ui.c(117,42): warning C4024: 'filterCantity': different types for formal and actual parameter 2
+  Gestiune Farmacie.vcxproj -> C:\Users\Razvan-Laptop\Desktop\New folder\x64\Debug\Gestiune Farmacie.exe

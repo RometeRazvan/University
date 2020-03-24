@@ -29,7 +29,7 @@ void afiseazaTotUi(Ui* ui) {
 		Lista* l = getListaMasini(ui->serv);
 
 		for (int i = 0; i < getLg(l); ++i) {
-			Masina* m = getMasinaR(l, i);
+			Masina* m = getE(l, i);
 			printf("%d %s %s %s\n", i, getNrI(m), getModel(m), getCateg(m));
 		}
 	}
@@ -37,7 +37,7 @@ void afiseazaTotUi(Ui* ui) {
 		Lista* l = getListaInc(ui->serv);
 
 		for (int i = 0; i < getLg(l); ++i) {
-			Masina* m = getMasinaR(l, i);
+			Masina* m = getE(l, i);
 			printf("%d %s %s %s\n", i, getNrI(m), getModel(m), getCateg(m));
 		}
 	}
@@ -129,7 +129,7 @@ void filtreazaUi(Ui* ui) {
 	Lista* l = filtreaza(ui->serv, model, categ);
 
 	for (int i = 0; i < getLg(l); ++i) {
-		Masina* m = getMasinaR(l, i);
+		Masina* m = getE(l, i);
 		printf("%s %s %s\n", getNrI(m), getModel(m), getCateg(m));
 	}
 
@@ -160,7 +160,7 @@ void sorteazaUi(Ui* ui) {
 	Lista *l = sorteaza(ui->serv, model, comanda2);
 
 	for (int i = 0; i < getLg(l); ++i) {
-		Masina* m = getMasinaR(l, i);
+		Masina* m = getE(l, i);
 		printf("%s %s %s\n", getNrI(m), getModel(m), getCateg(m));
 	}
 

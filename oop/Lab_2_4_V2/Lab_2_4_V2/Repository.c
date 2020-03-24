@@ -42,14 +42,14 @@ void checkRealloc(Lista* l) {
 	}
 }
 
-void adaugareMasinaR(Lista* l, ElemT m) {
+void adaugareE(Lista* l, ElemT m) {
 	checkRealloc(l);
 
 	l->lista[l->lg] = m;
 	++l->lg;
 }
 
-ElemT stergeMasinaR(Lista* l, int poz) {
+ElemT stergereE(Lista* l, int poz) {
 	int j = 0, val = 0;
 	ElemT m = NULL;
 	ElemT* v = malloc(sizeof(ElemT) * l->capacitate);
@@ -76,7 +76,7 @@ ElemT stergeMasinaR(Lista* l, int poz) {
 	return NULL;
 }
 
-void updateMasinaR(Lista* l, int poz, ElemT m) {
+void updateE(Lista* l, int poz, ElemT m) {
 	for (int i = 0; i < l->lg; ++i) {
 		if (i == poz) {
 			l->f(l->lista[i]);
@@ -85,7 +85,7 @@ void updateMasinaR(Lista* l, int poz, ElemT m) {
 	}
 }
 
-ElemT getMasinaR(Lista* l, int poz) {
+ElemT getE(Lista* l, int poz) {
 	ElemT m = NULL;
 
 	for (int i = 0; i < l->lg; ++i)

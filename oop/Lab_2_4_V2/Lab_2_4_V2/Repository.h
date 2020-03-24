@@ -43,28 +43,28 @@ void checkRealloc(Lista* l);
 	Preconditii - l - Lista*
 	Postconditii - % 
 */
-void adaugareMasinaR(Lista* l, ElemT m);
+void adaugareE(Lista* l, ElemT m);
 
 /*
 	Functia sterge un element din lista de pe pozitia poz si il returneaza
 	Preconditii - l - Lista*
 	Postconditii - % 
 */
-ElemT stergeMasinaR(Lista* l, int poz);
+ElemT stergereE(Lista* l, int poz);
 
 /*
 	Functia inlocuieste un element din lista de pe pozitia poz
 	Preconditii - l - Lista*
 	Postconditii - %
 */
-void updateMasinaR(Lista* l, int poz, ElemT m);
+void updateE(Lista* l, int poz, ElemT m);
 
 /*
 	Functia returneaza un element din lista de pe pozitia poz
 	Preconditii - l - Lista*
 	Postconditii - %
 */
-ElemT getMasinaR(Lista* l, int poz);
+ElemT getE(Lista* l, int poz);
  
 /*
 	Functie de distructor pentru lista 
