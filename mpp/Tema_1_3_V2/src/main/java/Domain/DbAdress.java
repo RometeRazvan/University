@@ -24,16 +24,10 @@ public class DbAdress {
         catch (IOException e) {
             System.out.println("Nu s-a putut citit fisierul db.properties" + e.getMessage());
         }
-        /*try {
-            prop.load(new FileInputStream("src\\main\\resources\\db.properties"));
-        }
-        catch (IOException e) {
-            System.out.println("Nu s-a putut incarca fisierul cu proprietati " + e.getMessage());
-        }*/
         String url = prop.getProperty("jbdc.url");
         Connection con = null;
         try {
-            con = DriverManager.getConnection(url);
+            con = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Razvan-Laptop\\Desktop\\University\\mpp\\Tema_1_3_V2\\Baze de date\\IdentifierLab_1_3");
         }
         catch (SQLException e) {
             System.out.println("Nu s-a putut stabili conexiunea " + e.getMessage());

@@ -11,11 +11,141 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Repository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/51a78c88-e6b6-4028-afce-b4be3a1e29d8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/51a78c88-e6b6-4028-afce-b4be3a1e29d8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c7e014f3-64c7-4e5d-b737-2e36fae77d44.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c7e014f3-64c7-4e5d-b737-2e36fae77d44.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/.vs/Lab_2_4_Static_V2/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/.vs/Lab_2_4_Static_V2/v16/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/.vs/Lab_2_4_Static_V2/v16/TestStore/0/000-0000.testlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/.vs/Lab_2_4_Static_V2/v16/TestStore/0/testlog.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/.vs/Lab_2_4_Static_V2/v16/ipch/AutoPCH/34822a2cbbaabce0/SERVICE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/.vs/Lab_2_4_Static_V2/v16/ipch/AutoPCH/56a0a274c1e2a338/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/.vs/Lab_2_4_Static_V2/v16/ipch/AutoPCH/62592fd8e0e42652/UI.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/.vs/Lab_2_4_Static_V2/v16/ipch/AutoPCH/6270f9d8e0f85c71/UI.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/.vs/Lab_2_4_Static_V2/v16/ipch/AutoPCH/67c08b6707a63f6e/TESTSERVICE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/.vs/Lab_2_4_Static_V2/v16/ipch/AutoPCH/7910644cef17f365/DOMAIN.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/.vs/Lab_2_4_Static_V2/v16/ipch/AutoPCH/9ce6fc2200022891/TESTREPOSITORY.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/.vs/Lab_2_4_Static_V2/v16/ipch/AutoPCH/b162ba0e6ab315cb/TESTDOMAIN.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/.vs/Lab_2_4_Static_V2/v16/ipch/AutoPCH/c602872c36b8f090/SORTER.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/.vs/Lab_2_4_Static_V2/v16/ipch/AutoPCH/d8c3341aa5c3ee8f/REPOSITORY.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Debug/Lab_2_4_Static_V2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Debug/Lab_2_4_Static_V2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Debug/Lab_2_4_Static_V2.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Debug/Lab_2_4_Static_V2.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Debug/Lab_2_4_Static_V2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Debug/Lab_2_4_Static_V2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/.opencppcov/Lab_2_4_Static_V2/Debug_x86.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/.opencppcov/Lab_2_4_Static_V2/Debug_x86.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Domain.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Domain.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_.AE2C92A4.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_.AE2C92A4.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_.AE2C92A4.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_.AE2C92A4.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_.AE2C92A4.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_.AE2C92A4.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_.AE2C92A4.tlog/Lab_2_4_Static_V2.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_.AE2C92A4.tlog/Lab_2_4_Static_V2.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_.AE2C92A4.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_.AE2C92A4.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_.AE2C92A4.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_.AE2C92A4.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_.AE2C92A4.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_.AE2C92A4.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_Static_V2.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Lab_2_4_Static_V2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Repository.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Repository.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Service.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Service.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Sorter.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Sorter.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Source.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Source.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/TestDomain.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/TestDomain.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/TestRepository.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/TestRepository.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/TestService.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/TestService.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Ui.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/Ui.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Domain.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Domain.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Domain.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Domain.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Lab_2_4_Static_V2.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Lab_2_4_Static_V2.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/LastCoverageResults.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/LastCoverageResults.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Repository.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Repository.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Service.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Service.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Source.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_Static_V2/Lab_2_4_Static_V2/Source.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v15/ipch/AutoPCH/256e907917bb5ef4/SERVICE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v15/ipch/AutoPCH/4f14bf3ff06b979b/REPOSITORY.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v15/ipch/AutoPCH/56709753a3aa7451/TESTVALIDATOR.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v15/ipch/AutoPCH/5c67786e1e1eb0b1/DOMAIN.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v15/ipch/AutoPCH/680a7517e757456f/VALIDATOR.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v15/ipch/AutoPCH/681b7317e765b53c/VALIDATOR.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v15/ipch/AutoPCH/93fa7e0dc72ff95a/TESTSERVICE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v15/ipch/AutoPCH/b0fc52bad1bec52c/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v15/ipch/AutoPCH/d3da54d72c4cf505/TESTREPOSITORY.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v15/ipch/AutoPCH/ec7e24445c8e663f/TESTDOMAIN.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/20436d2a7717805f/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/242a2e854f5bed6f/SERVICE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/2e73cc65b96b5e01/TESTSERVICE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/4268d568828060b2/DOMAIN.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/722f8da07e2cd6ba/TESTVALIDATOR.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/7fdf49b7daaaf006/TESTREPOSITORY.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/8409604c55d60004/VALIDATOR.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/8753b144b33913cb/REPOISTORY.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/967859192a5f62f/SERVICE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/978839192b465fc/SERVICE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/99a9050cfb385a46/TESTREPOSITORY.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/b30a80bc83da056c/TESTDOMAIN.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/b4acfc2aace0a546/UI.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/b4c4c62aacf4db65/UI.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/b7a59c6c553a7286/UI.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/bc7bfb6c45e4487b/REPOSITORY.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/bc8cf96c45f2b848/REPOSITORY.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/c0a819da1a18511f/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/cb1edb3fbbb2c441/TESTSERVICE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/ed77f7d340e91372/DOMAIN.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/f652ff11c34d9c24/SORTER.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/f6786111c36d5ee7/SORTER.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/.vs/Lab_2_4_V2/v16/ipch/AutoPCH/f7b0020d72c2c408/REPOSITORY.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Debug/Lab_2_4_V2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Debug/Lab_2_4_V2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Debug/Lab_2_4_V2.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Debug/Lab_2_4_V2.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Debug/Lab_2_4_V2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Debug/Lab_2_4_V2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/.opencppcov/Lab_2_4_V2/Debug_x86.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/.opencppcov/Lab_2_4_V2/Debug_x86.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Domain.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Domain.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.tlog/Lab_2_4_V2.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.tlog/Lab_2_4_V2.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Lab_2_4_V2.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Repository.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Repository.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Service.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Service.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Sorter.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Sorter.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Source.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Source.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/TestDomain.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/TestDomain.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/TestRepository.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/TestRepository.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/TestService.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/TestService.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/TestValidator.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/TestValidator.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Ui.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Ui.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Validator.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/Validator.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Domain.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Domain.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Lab_2_4_V2.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Lab_2_4_V2.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/LastCoverageResults.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/LastCoverageResults.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Repository.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Repository.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Service.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/Service.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Domain.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Domain.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.tlog/Lab_2_4_V2.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.tlog/Lab_2_4_V2.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Repository.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Repository.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Service.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Service.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Source.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Source.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/TestDomain.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/TestDomain.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/TestRepository.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/TestRepository.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/TestService.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/TestService.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/TestValidator.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/TestValidator.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Validator.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/Lab_2_4_V2/x64/Debug/Validator.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../oop/Lab_2_4_V2/x64/Debug/Lab_2_4_V2.pdb" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,6 +280,11 @@
   </component>
   <component name="ProjectId" id="1YbpK3pdBSpEJXloqKDHRqIJLwp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlite" />
@@ -157,17 +292,18 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -176,18 +312,6 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -283,35 +407,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6e5f75cb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ddd3ec1c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ddd3ec1c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@72b1cdc7" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ddd3ec1c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@106a20d7" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -331,6 +426,7 @@
       <workItem from="1583494157616" duration="35000" />
       <workItem from="1583494252742" duration="6000" />
       <workItem from="1583494593973" duration="3750000" />
+      <workItem from="1584804142352" duration="793000" />
     </task>
     <servers />
   </component>
@@ -349,5 +445,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584804158321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584804158321" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1584804935398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584804935398" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1584804935398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584804935398" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1584804935398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584804935398" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1584804935398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584804935398" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1584804875805">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584804875805" />
   </component>
 </project>

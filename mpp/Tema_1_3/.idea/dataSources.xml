@@ -5,10 +5,7 @@
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\Razvan\Desktop\University\mpp\Tema_1_3\Baze de date\IdentifierLab_1_3</jdbc-url>
-      <driver-properties>
-        <property name="enable_load_extension" value="true" />
-      </driver-properties>
+      <jdbc-url>jdbc:sqlite:C:\Users\Razvan-Laptop\Desktop\University\mpp\Tema_1_3\Baze de date\IdentifierLab_1_3</jdbc-url>
     </data-source>
   </component>
 </project>

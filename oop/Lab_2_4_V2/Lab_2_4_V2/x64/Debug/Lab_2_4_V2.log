@@ -1,2 +1,17 @@
-﻿  Source.c
+﻿  Domain.c
+C:\Users\Razvan-Laptop\Desktop\University\oop\Lab_2_4_V2\Lab_2_4_V2\Domain.c(8,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Razvan-Laptop\Desktop\University\oop\Lab_2_4_V2\Lab_2_4_V2\Domain.c(12,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Razvan-Laptop\Desktop\University\oop\Lab_2_4_V2\Lab_2_4_V2\Domain.c(16,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Repository.c
+  Service.c
+  Sorter.c
+  Source.c
+  TestDomain.c
+  TestRepository.c
+  TestService.c
+  TestValidator.c
+  Ui.c
+  Validator.c
+C:\Users\Razvan-Laptop\Desktop\University\oop\Lab_2_4_V2\Lab_2_4_V2\Validator.c(34,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
   Lab_2_4_V2.vcxproj -> C:\Users\Razvan-Laptop\Desktop\University\oop\Lab_2_4_V2\x64\Debug\Lab_2_4_V2.exe

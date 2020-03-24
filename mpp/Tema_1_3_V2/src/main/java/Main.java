@@ -14,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World !");
-        /*UserRepo<String> ur = new UserRepo<>();
+        UserRepo<String> ur = new UserRepo<>();
         DonatieRepo<String> dr = new DonatieRepo<>();
         CazuriRepo<String> cr = new CazuriRepo<>();
         //System.out.println(ur.getLg());

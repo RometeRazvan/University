@@ -18,7 +18,14 @@ int main() {
 
 	testAll();
 
-	//Ui ui = newUi(); ui.s = generateSev2(); runUi(&ui);
+	Ui ui = newUi();
+	
+	adaugaS(&ui.s, "CJ 07 TRM", "2010", "SUV");
+	adaugaS(&ui.s, "CJ 08 TRM", "2011", "MINI");
+	adaugaS(&ui.s, "CJ 09 TRM", "2012", "GOLF");
+	adaugaS(&ui.s, "CJ 20 TRM", "2010", "SUV");
+	
+	runUi(&ui);
 
 	return 0;
 }

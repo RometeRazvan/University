@@ -14,7 +14,7 @@ public class DbAdress {
     public Connection getNewConnection() {
         Properties prop = new Properties();
         try {
-            prop.load(new FileInputStream("C:\\Users\\Razvan\\Desktop\\University\\mpp\\Tema_1_3\\src\\main\\resources\\db.properties"));
+            prop.load(new FileInputStream("C:\\Users\\Razvan-Laptop\\Desktop\\University\\mpp\\Tema_1_3\\src\\main\\resources\\db.properties"));
         }
         catch (IOException e) {
             System.out.println("Nu s-a putut incarca fisierul cu proprietati " + e.getMessage());
@@ -22,7 +22,7 @@ public class DbAdress {
         String url = prop.getProperty("jbdc.url");
         Connection con = null;
         try {
-            con = DriverManager.getConnection(url);
+            con = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Razvan-Laptop\\Desktop\\University\\mpp\\Tema_1_3\\Baze de date\\IdentifierLab_1_3");
         }
         catch (SQLException e) {
             System.out.println("Nu s-a putut stabili conexiunea " + e.getMessage());

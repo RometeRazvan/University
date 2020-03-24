@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Repository.UsersRepoTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-03-22T19:58:01" hostname="Razvan-Laptop" time="0.001">
+  <properties/>
+  <testcase name="findOne" classname="Repository.UsersRepoTest" time="0.0"/>
+  <testcase name="findByName" classname="Repository.UsersRepoTest" time="0.001"/>
+  <system-out><![CDATA[21:58:01.878 [Test worker] INFO  Repository.UsersRepo - Nu s-a gasit user pt numele razvan2
+21:58:01.880 [Test worker] INFO  Repository.UsersRepo - Nu s-a gasit user pt numele radu2
+21:58:01.881 [Test worker] INFO  Repository.UsersRepo - Nu s-a gasit user pt numele iulius2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

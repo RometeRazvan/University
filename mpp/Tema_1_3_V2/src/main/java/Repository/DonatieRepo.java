@@ -5,6 +5,7 @@ import Domain.Donatie;
 import Domain.Entity;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.concurrent.ExecutionException;
@@ -15,7 +16,9 @@ public class DonatieRepo<ID> implements IRepository<ID, Donatie<ID>> {
 
     public DonatieRepo() {
         try {
-            conn = new DbAdress().getNewConnection();
+            //conn = new DbAdress().getNewConnection();
+            conn = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Razvan-Laptop\\Desktop\\University\\mpp\\Tema_1_3_V2\\Baze de date\\IdentifierLab_1_3");
+
         }
         catch (Exception e) {
             System.out.println(e.getMessage());
