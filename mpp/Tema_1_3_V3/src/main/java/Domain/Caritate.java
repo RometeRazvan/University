@@ -21,6 +21,10 @@ public class Caritate extends Entity {
         this.suma = suma;
     }
 
+    public void setSuma(Integer suma) {
+        this.suma = suma;
+    }
+
     public Caritate(String nume, Integer suma) {
         super(0);
         this.nume = nume;

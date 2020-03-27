@@ -8,4 +8,6 @@ public interface IDonatiiRepo<E extends Entity> extends ICrudRepo<E> {
 
     E findByName(String nume);
 
+    Iterable<E> searchByPartialName(String nume);
+
 }

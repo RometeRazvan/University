@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Repository.CazuriCaritabileRepoTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-03-22T19:58:01" hostname="Razvan-Laptop" time="0.002">
+<testsuite name="Repository.CazuriCaritabileRepoTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-03-27T16:32:59" hostname="Razvan-Laptop" time="0.002">
   <properties/>
-  <testcase name="findAll" classname="Repository.CazuriCaritabileRepoTest" time="0.0"/>
-  <testcase name="findOne" classname="Repository.CazuriCaritabileRepoTest" time="0.001"/>
-  <testcase name="findByName" classname="Repository.CazuriCaritabileRepoTest" time="0.001"/>
-  <system-out><![CDATA[21:58:01.849 [Test worker] ERROR Repository.CazuriCaritabileRepo - Nu s-a gasit cazul caritabul cu numele Copii
-21:58:01.856 [Test worker] ERROR Repository.CazuriCaritabileRepo - Nu s-a gasit cazul caritabul cu numele Incendii
-21:58:01.856 [Test worker] ERROR Repository.CazuriCaritabileRepo - Nu s-a gasit cazul caritabul cu numele Dezastre Naturale
+  <testcase name="addSuma" classname="Repository.CazuriCaritabileRepoTest" time="0.0"/>
+  <testcase name="findAll" classname="Repository.CazuriCaritabileRepoTest" time="0.001"/>
+  <testcase name="findOne" classname="Repository.CazuriCaritabileRepoTest" time="0.0"/>
+  <testcase name="findByName" classname="Repository.CazuriCaritabileRepoTest" time="0.0"/>
+  <system-out><![CDATA[18:32:59.049 [Test worker] ERROR Repository.CazuriCaritabileRepo Line number : 43 - Nu s-a gasit cazul caritabul cu numele Copii
+18:32:59.057 [Test worker] ERROR Repository.CazuriCaritabileRepo Line number : 43 - Nu s-a gasit cazul caritabul cu numele Incendii
+18:32:59.058 [Test worker] ERROR Repository.CazuriCaritabileRepo Line number : 43 - Nu s-a gasit cazul caritabul cu numele Dezastre Naturale
+18:32:59.058 [Test worker] ERROR Repository.CazuriCaritabileRepo Line number : 43 - Nu s-a gasit cazul caritabul cu numele Dezastre Sociale
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

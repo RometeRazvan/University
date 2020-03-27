@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 public class CazuriCaritabileRepoTest {
 
     private static CazuriCaritabileRepo ccu;
-    private static Caritate c1, c2, c3;
+    private static Caritate c1, c2, c3, c4;
 
     @BeforeClass
     public static void initializare() throws SQLException {
@@ -23,6 +23,7 @@ public class CazuriCaritabileRepoTest {
         c1 = ccu.save(new Caritate("Copii"));
         c2 = ccu.save(new Caritate("Incendii"));
         c3 = ccu.save(new Caritate("Dezastre Naturale"));
+        c4 = ccu.save(new Caritate("Dezastre Sociale"));
     }
 
     @AfterClass
@@ -53,5 +54,11 @@ public class CazuriCaritabileRepoTest {
         assertTrue(c1.equals(ccu.findOne(c1.getId())));
         assertTrue(c2.equals(ccu.findOne(c2.getId())));
         assertTrue(c3.equals(ccu.findOne(c3.getId())));
+    }
+
+    @Test
+    public void addSuma() {
+        ccu.addSuma(c4.getNume(), 100);
+        assertTrue(ccu.findOne(c4.getId()).getSuma() == 100);
     }
 }

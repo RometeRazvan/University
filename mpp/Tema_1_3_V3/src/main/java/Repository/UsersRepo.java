@@ -16,7 +16,7 @@ public class UsersRepo implements IUsersRepo<User>{
 
     public UsersRepo() { conn = new DBAdd().getNewConnection();}
 
-    Connection getConnection() {return conn;}
+    public Connection getConnection() {return conn;}
 
     @Override
     public User findByName(String nume) {

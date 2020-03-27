@@ -9,6 +9,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class DonatiiRepo implements IDonatiiRepo<Donatie> {
 
@@ -65,6 +66,41 @@ public class DonatiiRepo implements IDonatiiRepo<Donatie> {
             ResultSet rs = ppstmt.executeQuery();
             if(rs.next()) return new Donatie(rs.getInt("id"), rs.getString("nume"), rs.getString("adresa"), rs.getString("nrTel"), rs.getInt("suma"));
             else logger.error("Nu s-a gasit donatorul cu numele " + nume);
+        }
+        catch (Exception e) {
+            logger.error(e);
+        }
+
+        return null;
+    }
+
+    @Override
+    public Iterable<Donatie> searchByPartialName(String nume) {
+        try {
+            if(conn.isClosed())
+                return null;
+        }
+        catch(Exception e) {
+            logger.error(e);
+            return null;
+        }
+
+        try {
+            String stmt = "Select * from Donatii where charindex(?, nume) > 0 ";
+
+            PreparedStatement ppstmt = conn.prepareStatement(stmt);
+            ppstmt.setString(1, nume);
+
+            ResultSet rs = ppstmt.executeQuery();
+
+            ArrayList<Donatie> al = new ArrayList<>();
+
+            while (rs.next()) {
+                Donatie donatie = new Donatie(rs.getString("nume"), rs.getString("adresa"), rs.getString("nrTel"), rs.getInt("suma"));
+                al.add(donatie);
+            }
+
+            return al;
         }
         catch (Exception e) {
             logger.error(e);

@@ -8,4 +8,6 @@ public interface ICazuriCaritabileRepo<E extends Entity> extends ICrudRepo<E> {
 
     Iterable<E> findAll();
 
+    void addSuma(String nume, Integer suma);
+
 }

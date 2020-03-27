@@ -3,6 +3,8 @@ package Service;
 import Domain.Caritate;
 import Repository.CazuriCaritabileRepo;
 
+import java.sql.Connection;
+
 public class ServiceCaritate implements IServiceCaritate<Caritate> {
     private CazuriCaritabileRepo ccr;
 
@@ -27,5 +29,10 @@ public class ServiceCaritate implements IServiceCaritate<Caritate> {
     @Override
     public Caritate findOne(int id) {
         return ccr.findOne(id);
+    }
+
+    @Override
+    public Connection getConnection() {
+        return ccr.getConnection();
     }
 }

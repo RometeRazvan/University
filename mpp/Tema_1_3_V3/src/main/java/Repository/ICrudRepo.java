@@ -2,6 +2,7 @@ package Repository;
 
 import Domain.Entity;
 
+import java.sql.Connection;
 import java.sql.SQLException;
 
 public interface ICrudRepo<E extends Entity> {

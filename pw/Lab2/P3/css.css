@@ -1,0 +1,32 @@
+body, html{
+  height: 100%;
+  margin:0;
+}
+
+.structure {
+	display:flex;
+	flex:1;
+	flex-flow:column;
+	height:100%;
+}
+
+.head {
+	height:100px;
+	background-color:#99ff33;
+}
+
+.meniu {
+	height:25px;
+	background-color:#00ff99;	
+}
+
+.body {
+	display:flex;
+	flex:1;
+	background-color:#99ffcc;
+}
+
+.footer{
+	height:60px;
+	background-color:#339933;
+}

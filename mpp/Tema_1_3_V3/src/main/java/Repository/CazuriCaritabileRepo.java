@@ -79,6 +79,35 @@ public class CazuriCaritabileRepo implements ICazuriCaritabileRepo<Caritate> {
     }
 
     @Override
+    public void addSuma(String nume, Integer suma) {
+        try {
+            if(conn.isClosed())
+                return;
+        }
+        catch (Exception e) {
+            logger.error(e);
+            return;
+        }
+
+        try {
+
+            Caritate caritate = findByName(nume);
+            caritate.setSuma(caritate.getSuma() + suma);
+
+            String stmt = "Update CazuriCaritabile set suma = ? where nume = ?";
+
+            PreparedStatement ppstmt = conn.prepareStatement(stmt);
+            ppstmt.setInt(1, caritate.getSuma());
+            ppstmt.setString(2, caritate.getNume());
+
+            ppstmt.executeUpdate();
+        }
+        catch (Exception e) {
+            logger.error(e);
+        }
+    }
+
+    @Override
     public Caritate findOne(int id) {
         try {
             if(conn.isClosed())

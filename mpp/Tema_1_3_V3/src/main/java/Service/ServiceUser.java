@@ -3,6 +3,8 @@ package Service;
 import Domain.User;
 import Repository.UsersRepo;
 
+import java.sql.Connection;
+
 public class ServiceUser implements IServiceUser<User> {
 
     private UsersRepo ur;
@@ -23,5 +25,10 @@ public class ServiceUser implements IServiceUser<User> {
     @Override
     public User findOne(int id) {
         return ur.findOne(id);
+    }
+
+    @Override
+    public Connection getConnection() {
+        return ur.getConnection();
     }
 }
