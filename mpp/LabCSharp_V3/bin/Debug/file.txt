@@ -1,0 +1,429 @@
+2020-04-02 16:31:55.0546|INFO|LabCSharp_V3.Program|asdasd
+2020-04-02 16:32:33.6814|INFO|LabCSharp_V3.Program|asdasd
+2020-04-02 16:32:58.8756|INFO|LabCSharp_V3.Program|asdasd
+2020-04-02 16:33:05.2884|INFO|LabCSharp_V3.Program|asdasd
+2020-04-02 16:33:10.8814|INFO|LabCSharp_V3.Program|asdasd
+2020-04-02 16:44:18.7074|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 16:45:20.1067|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 16:45:20.1446|ERROR|LabCSharp_V3.Repository.RepoCaritate|Invalid ConnectionString format, cannot parse: string value to split cannot be null
+2020-04-02 16:45:57.1780|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 16:45:57.2299|ERROR|LabCSharp_V3.Repository.RepoCaritate|Invalid ConnectionString format, cannot parse: string value to split cannot be null
+2020-04-02 16:46:16.8916|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 17:01:06.0042|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 17:01:20.6336|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 17:19:32.7313|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 17:20:08.8071|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 17:20:24.7092|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 17:20:33.4821|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 17:20:41.9914|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 17:21:13.9461|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 17:23:06.5780|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 17:23:22.7600|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 17:23:50.6284|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 17:39:47.9816|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 17:39:48.0524|ERROR|LabCSharp_V3.Repository.RepoDonatie|SQL logic error
+table Donatii has no column named nrTelm
+2020-04-02 17:40:00.7547|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 19:28:24.1383|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 19:36:29.8150|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 19:36:38.1333|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:05:35.1903|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:06:29.4177|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:06:32.2641|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:06:39.3158|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:07:01.9175|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:09:45.2068|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:09:46.9018|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:09:47.4224|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:09:47.5879|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:10:32.0652|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:10:34.1951|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:10:34.4684|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:10:34.6400|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:10:34.7656|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:13:15.3884|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:13:52.7270|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:14:39.3924|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:14:43.3765|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:14:43.7515|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:14:43.9350|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:15:04.0418|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:15:06.3841|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:15:06.9777|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:15:07.1413|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:23:26.1793|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:23:29.1046|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:23:29.4154|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:23:29.5660|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:23:32.8833|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:23:52.0031|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:24:24.7059|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:24:29.0383|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:24:29.4691|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:24:29.6506|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:24:29.8212|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:24:49.4172|INFO|LabCSharp_V3.Form1|!!!!!
+2020-04-02 20:24:49.4651|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:24:51.4321|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:24:54.3999|INFO|LabCSharp_V3.Form1|!!!!!
+2020-04-02 20:24:54.4707|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-02 20:29:39.0755|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:29:41.2650|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:29:44.3896|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:30:16.5027|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-02 20:31:06.8264|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:32:33.1224|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:35:35.3151|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:35:57.7970|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:36:18.4760|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:37:25.8575|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:37:32.2660|ERROR|LabCSharp_V3.Form1|Starting a second message loop on a single thread is not a valid operation. Use Form.ShowDialog instead.
+2020-04-02 20:37:33.0280|ERROR|LabCSharp_V3.Form1|Starting a second message loop on a single thread is not a valid operation. Use Form.ShowDialog instead.
+2020-04-02 20:37:33.1935|ERROR|LabCSharp_V3.Form1|Starting a second message loop on a single thread is not a valid operation. Use Form.ShowDialog instead.
+2020-04-02 20:37:39.0189|ERROR|LabCSharp_V3.Form1|Starting a second message loop on a single thread is not a valid operation. Use Form.ShowDialog instead.
+2020-04-02 20:37:39.4387|ERROR|LabCSharp_V3.Form1|Starting a second message loop on a single thread is not a valid operation. Use Form.ShowDialog instead.
+2020-04-02 20:37:39.6003|ERROR|LabCSharp_V3.Form1|Starting a second message loop on a single thread is not a valid operation. Use Form.ShowDialog instead.
+2020-04-02 20:37:39.7729|ERROR|LabCSharp_V3.Form1|Starting a second message loop on a single thread is not a valid operation. Use Form.ShowDialog instead.
+2020-04-02 20:37:47.2655|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:37:54.5394|ERROR|LabCSharp_V3.Form1|Starting a second message loop on a single thread is not a valid operation. Use Form.ShowDialog instead.
+2020-04-02 20:38:30.5022|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:39:31.0180|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:40:11.4279|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:40:19.7185|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:44:15.8009|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:44:31.1047|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:44:39.8671|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-02 20:44:48.4219|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-03 10:17:26.4684|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-03 10:42:49.0119|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-03 10:42:50.9554|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-03 10:42:50.9594|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-03 10:43:35.1985|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-03 10:43:37.8962|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-03 10:43:37.8962|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-03 10:43:37.9231|ERROR|LabCSharp_V3.Form2|No row can be added to a DataGridView control that does not have columns. Columns must be added first.
+2020-04-03 10:43:45.5477|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-03 10:43:49.1190|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-03 10:43:49.1190|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-03 10:43:49.2138|ERROR|LabCSharp_V3.Form2|No row can be added to a DataGridView control that does not have columns. Columns must be added first.
+2020-04-03 10:53:19.5831|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-03 10:53:21.6122|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-03 10:53:21.6152|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-03 10:53:47.1141|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-03 10:53:49.0692|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-03 10:53:49.0692|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-03 11:19:17.8810|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-03 11:19:21.3503|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-03 11:19:21.3503|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-03 11:19:22.3929|ERROR|LabCSharp_V3.Form2|Input string was not in a correct format.
+2020-04-03 11:19:23.0379|ERROR|LabCSharp_V3.Form2|Input string was not in a correct format.
+2020-04-03 11:19:23.3918|ERROR|LabCSharp_V3.Form2|Input string was not in a correct format.
+2020-04-03 11:19:23.5843|ERROR|LabCSharp_V3.Form2|Input string was not in a correct format.
+2020-04-03 11:19:29.1414|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-03 11:19:31.7722|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-03 11:19:31.7722|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-03 11:19:35.5652|ERROR|LabCSharp_V3.Form2|Input string was not in a correct format.
+2020-04-03 11:19:36.0699|ERROR|LabCSharp_V3.Form2|Input string was not in a correct format.
+2020-04-03 11:19:36.2361|ERROR|LabCSharp_V3.Form2|Input string was not in a correct format.
+2020-04-03 11:19:36.3953|ERROR|LabCSharp_V3.Form2|Input string was not in a correct format.
+2020-04-03 11:19:36.5559|ERROR|LabCSharp_V3.Form2|Input string was not in a correct format.
+2020-04-03 11:19:36.6910|ERROR|LabCSharp_V3.Form2|Input string was not in a correct format.
+2020-04-03 11:20:01.2394|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-03 11:20:02.8790|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-03 11:20:02.8840|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-03 11:20:04.2755|ERROR|LabCSharp_V3.Form2|Input string was not in a correct format.
+2020-04-03 11:20:04.4297|ERROR|LabCSharp_V3.Form2|Input string was not in a correct format.
+2020-04-03 11:20:04.5793|ERROR|LabCSharp_V3.Form2|Input string was not in a correct format.
+2020-04-03 11:20:04.7299|ERROR|LabCSharp_V3.Form2|Input string was not in a correct format.
+2020-04-03 11:21:43.8756|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-03 11:21:45.8602|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-03 11:21:45.8602|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-03 11:22:57.4057|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-03 11:23:03.6075|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-03 11:23:03.6075|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-03 11:23:22.6013|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-03 11:23:31.4571|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-03 11:23:31.4611|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-03 13:01:22.5847|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-03 13:01:30.1513|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-03 13:01:30.1513|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 11:26:46.3900|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:26:46.4828|ERROR|LabCSharp_V3.Repository.RepoCaritate|SQL logic error
+no such table: CazurCaritabile
+2020-04-04 11:26:57.5775|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:30:05.7905|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 11:30:05.8125|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:32:34.3292|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 11:32:42.3721|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:32:42.3721|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 11:32:42.3721|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:33:24.4140|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 11:33:26.4988|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:33:26.4988|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 11:33:26.4988|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:34:03.6617|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 11:34:06.0958|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:34:06.0988|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 11:34:06.0988|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:34:20.1021|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 11:34:22.0200|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:34:22.0220|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 11:34:22.0220|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:35:05.1229|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 11:35:09.5349|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:35:09.5369|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 11:35:09.5369|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:36:10.5650|ERROR|LabCSharp_V3.Repository.RepoDonatie|database is locked
+database is locked
+2020-04-04 11:37:53.6659|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 11:37:55.6658|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:37:55.6658|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 11:37:55.6658|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:40:38.7789|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 11:40:40.5880|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:40:40.5880|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 11:40:40.5880|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:42:17.1262|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 11:42:19.4913|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:42:19.4913|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 11:42:19.4913|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:42:50.5832|ERROR|LabCSharp_V3.Repository.RepoDonatie|database is locked
+database is locked
+2020-04-04 11:44:01.2183|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 11:44:03.8274|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:44:03.8274|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 11:44:03.8274|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:44:32.6435|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 11:44:34.6930|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:44:34.6930|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 11:44:34.6930|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:49:00.1608|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 11:49:03.2953|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:49:03.2953|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 11:49:03.2953|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 11:51:12.8749|ERROR|LabCSharp_V3.Repository.RepoDonatie|database is locked
+database is locked
+2020-04-04 11:52:24.9459|ERROR|LabCSharp_V3.Repository.RepoCaritate|database is locked
+database is locked
+2020-04-04 12:07:44.5894|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 12:09:23.8513|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 12:09:53.6220|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 12:09:58.4561|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 12:10:53.7307|ERROR|LabCSharp_V3.Repository.RepoDonatie|database is locked
+database is locked
+2020-04-04 12:11:19.0465|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 12:11:20.9174|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 12:11:20.9174|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 12:11:20.9174|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:03:04.4397|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:03:09.5551|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:03:09.5551|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:03:23.0608|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:03:25.0967|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:03:25.0987|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:04:09.8570|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:04:11.7639|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:04:11.7639|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:05:18.2866|ERROR|LabCSharp_V3.Repository.RepoDonatie|database is locked
+database is locked
+2020-04-04 13:06:26.9026|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:06:26.9285|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:06:26.9285|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:07:11.3799|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:07:11.4019|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:07:11.4019|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:07:16.8144|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:07:16.8423|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:07:16.8423|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:07:57.1526|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:07:57.2284|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:07:57.2284|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:07:59.7267|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:07:59.8285|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:07:59.8354|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:14:19.4150|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:14:21.4410|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:14:21.4460|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:14:46.0604|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:14:49.3785|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:14:49.3825|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:15:11.0088|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:15:13.7923|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:15:13.7923|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:16:20.6051|ERROR|LabCSharp_V3.Repository.RepoDonatie|database is locked
+database is locked
+2020-04-04 13:17:45.9833|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:17:47.8941|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:17:47.8971|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:18:52.9698|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:18:54.8774|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:18:54.8804|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:20:34.2942|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:20:34.3151|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:23:52.0854|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:23:53.8746|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:23:53.8746|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:23:53.8846|ERROR|LabCSharp_V3.Form1|Starting a second message loop on a single thread is not a valid operation. Use Form.ShowDialog instead.
+2020-04-04 13:26:24.0823|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:26:36.9229|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:26:38.8846|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:26:38.8846|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:26:38.9006|ERROR|LabCSharp_V3.Form1|Starting a second message loop on a single thread is not a valid operation. Use Form.ShowDialog instead.
+2020-04-04 13:26:44.9893|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:26:44.9893|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:26:44.9893|ERROR|LabCSharp_V3.Form1|Starting a second message loop on a single thread is not a valid operation. Use Form.ShowDialog instead.
+2020-04-04 13:26:45.2745|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:26:45.2745|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:26:45.2745|ERROR|LabCSharp_V3.Form1|Starting a second message loop on a single thread is not a valid operation. Use Form.ShowDialog instead.
+2020-04-04 13:26:45.4480|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:26:45.4480|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:26:45.4480|ERROR|LabCSharp_V3.Form1|Starting a second message loop on a single thread is not a valid operation. Use Form.ShowDialog instead.
+2020-04-04 13:26:45.6086|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:26:45.6086|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:26:45.6086|ERROR|LabCSharp_V3.Form1|Starting a second message loop on a single thread is not a valid operation. Use Form.ShowDialog instead.
+2020-04-04 13:27:25.5678|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:27:27.3903|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:27:27.3903|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:27:27.3993|ERROR|LabCSharp_V3.Form1|SetCompatibleTextRenderingDefault must be called before the first IWin32Window object is created in the application.
+2020-04-04 13:27:28.1626|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:27:28.1626|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:27:28.1626|ERROR|LabCSharp_V3.Form1|SetCompatibleTextRenderingDefault must be called before the first IWin32Window object is created in the application.
+2020-04-04 13:27:48.2430|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:27:49.8213|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:27:49.8213|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:29:27.2392|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:29:29.4573|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:29:29.4593|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:30:29.0639|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:30:31.2280|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:30:31.2280|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:30:40.1765|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:30:41.9083|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:30:41.9083|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:33:16.5704|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:33:18.0564|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:33:18.0564|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:33:27.4229|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:33:29.2290|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:33:29.2290|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:47:16.6054|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:47:16.6323|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:47:16.6323|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:47:18.5926|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:47:18.5926|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:47:32.2692|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:47:32.2902|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:47:32.2902|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:47:34.8395|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:47:34.8395|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:48:59.6190|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:49:01.9104|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:49:01.9123|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:52:54.7069|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:52:54.7328|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:53:07.1416|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:53:08.3118|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:53:08.3118|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:53:34.2871|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:53:35.8110|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:53:35.8110|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:54:04.5054|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:54:06.0822|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:54:06.0842|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:54:17.9868|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:54:20.8443|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:54:20.8443|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:54:40.9546|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:54:42.2084|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:54:42.2084|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:55:03.3110|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:55:04.4483|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:55:04.4483|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:56:15.5189|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:56:17.2656|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:56:17.2656|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:56:37.4354|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:56:40.0424|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:56:40.0424|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:56:59.0003|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:57:00.6299|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:57:00.6299|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:57:16.2126|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:57:18.4709|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-04 13:57:21.8583|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:57:21.8583|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:58:42.6253|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:58:44.5097|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:58:44.5097|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 13:59:08.9017|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 13:59:10.0104|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 13:59:10.0104|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:00:25.0772|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:00:26.3987|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-04 14:00:31.1178|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:00:31.1178|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:00:46.0890|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:01:24.3283|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:01:27.8494|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:01:27.8494|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:03:28.7368|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:03:43.6615|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:03:46.3730|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:03:46.3730|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:04:26.0031|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:04:27.0909|ERROR|LabCSharp_V3.Form1|Object reference not set to an instance of an object.
+2020-04-04 14:04:32.7456|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:04:32.7456|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:05:01.1411|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:05:02.6092|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:05:02.6092|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:05:36.9885|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:05:38.3559|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:05:38.3559|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:06:03.9154|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:07:08.2252|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:07:09.1936|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:07:09.1936|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:08:00.3958|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:08:02.6679|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:08:02.6679|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:08:45.0061|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:08:46.6906|ERROR|LabCSharp_V3.Form1|Database connection not valid for shutdown.
+2020-04-04 14:08:51.2303|ERROR|LabCSharp_V3.Form1|Database connection not valid for shutdown.
+2020-04-04 14:08:51.4586|ERROR|LabCSharp_V3.Form1|Database connection not valid for shutdown.
+2020-04-04 14:08:51.6511|ERROR|LabCSharp_V3.Form1|Database connection not valid for shutdown.
+2020-04-04 14:08:51.8267|ERROR|LabCSharp_V3.Form1|Database connection not valid for shutdown.
+2020-04-04 14:08:51.9922|ERROR|LabCSharp_V3.Form1|Database connection not valid for shutdown.
+2020-04-04 14:08:52.3463|ERROR|LabCSharp_V3.Form1|Database connection not valid for shutdown.
+2020-04-04 14:08:52.5448|ERROR|LabCSharp_V3.Form1|Database connection not valid for shutdown.
+2020-04-04 14:08:52.7482|ERROR|LabCSharp_V3.Form1|Database connection not valid for shutdown.
+2020-04-04 14:10:06.8365|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:10:08.7614|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:10:08.7614|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:10:38.1068|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:10:39.8292|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:10:39.8292|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:12:41.6590|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:12:42.7631|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:12:42.7631|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:12:54.2416|INFO|LabCSharp_V3.Repository.RepoUser|S-a initia conexiunea la baza Users
+2020-04-04 14:12:55.4011|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:12:55.4011|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:16:45.2107|ERROR|LabCSharp_V3.Repository.RepoUser|Database is not open
+2020-04-04 14:16:45.2516|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:16:45.2516|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:17:21.1834|ERROR|LabCSharp_V3.Repository.RepoUser|Database is not open
+2020-04-04 14:17:31.0425|ERROR|LabCSharp_V3.Repository.RepoUser|Database is not open
+2020-04-04 14:17:34.1966|ERROR|LabCSharp_V3.Repository.RepoUser|Database is not open
+2020-04-04 14:17:34.4100|ERROR|LabCSharp_V3.Repository.RepoUser|Database is not open
+2020-04-04 14:17:42.5979|ERROR|LabCSharp_V3.Repository.RepoUser|Database is not open
+2020-04-04 14:18:22.5566|ERROR|LabCSharp_V3.Repository.RepoUser|Database is not open
+2020-04-04 14:18:48.7051|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:18:48.7330|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:19:18.3056|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:19:18.3295|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:20:23.9494|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:20:23.9733|INFO|LabCSharp_V3.Repository.RepoDonatie|S-a initia conexiunea la baza Donatii
+2020-04-04 14:25:09.4742|INFO|LabCSharp_V3.Repository.RepoCaritate|S-a initia conexiunea la baza CazuriCaritabile
+2020-04-04 14:28:44.2632|ERROR|LabCSharp_V3.Repository.RepoDonatie|database is locked
+database is locked

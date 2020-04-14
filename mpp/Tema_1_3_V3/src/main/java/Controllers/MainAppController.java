@@ -67,6 +67,8 @@ public class MainAppController {
 
         tableDonatii.getColumns().addAll(columnNume, columnAdresa, columnNrTel);
 
+        //tableCazuri.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
+
         loadFromDatabase();
 
     }

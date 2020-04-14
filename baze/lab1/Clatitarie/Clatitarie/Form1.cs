@@ -31,7 +31,7 @@ namespace WindowsFormsApplication1
                 da.SelectCommand = cmd;
                 con.Open();
                 da.Fill(ds, "filme");
-                MessageBox.Show("connect with sql server");
+                //MessageBox.Show("connect with sql server");
                 dataGridView1.DataSource = ds.Tables["filme"];
                 con.Close();
 
@@ -62,16 +62,21 @@ namespace WindowsFormsApplication1
 
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
             try
             {
-                String query = "select * from Concediu";
+                String query = "select * from Concediu where idAngajat = idAngajat";
                 SqlConnection con = new SqlConnection(str);
                 SqlCommand cmd = new SqlCommand(query, con);
                 da.SelectCommand = cmd;
                 con.Open();
                 da.Fill(ds, "filme");
-                MessageBox.Show("connect with sql server");
-                dataGridView1.DataSource = ds.Tables["filme"];
+                //MessageBox.Show("connect with sql server");
+                dataGridView2.DataSource = ds.Tables["filme"];
                 con.Close();
 
             }

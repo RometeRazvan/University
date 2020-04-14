@@ -1,0 +1,815 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.4.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class MyList<class Locatar>', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Razvan-Laptop/Desktop/University/oop/Lab6_7_Iteratia2/MyList.h"
+                },
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 13,
+                  "endLine": 118,
+                  "endColumn": 13
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.25.28611.0"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00B931A0 -il C:\\Users\\RAZVAN~1\\AppData\\Local\\Temp\\_CL_38951ae0ast -typedil -f UI.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1925 -D_MSC_FULL_VER=192528611 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\UI.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\Razvan-Laptop\\Desktop\\University\\oop\\Lab6_7_Iteratia2\\ -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\CppCoreCheckRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\Include\\um",
+          "executionSuccessful": true,
+          "ruleConfigurationOverrides": [
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26400"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26401"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26402"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26403"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26404"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26405"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26406"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26407"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26408"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26409"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26410"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26411"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26414"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26415"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26416"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26417"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26418"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26426"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26427"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26429"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26430"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26431"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26432"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26433"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26434"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26435"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26436"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26437"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26438"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26439"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26440"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26441"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26443"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26444"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26445"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26446"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26447"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26448"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26449"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26450"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26451"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26452"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26453"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26454"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26455"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26456"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26459"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26460"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26461"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26462"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26463"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26464"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26465"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26466"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26471"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26472"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26473"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26474"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26475"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26476"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26477"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26478"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26481"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26482"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26483"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26485"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26490"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26491"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26492"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26493"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26494"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26495"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26496"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26497"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26498"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26810"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26811"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26814"
+              }
+            }
+          ]
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/razvan-laptop/desktop/university/oop/lab6_7_iteratia2/repoexception.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/razvan-laptop/desktop/university/oop/lab6_7_iteratia2/ui.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/razvan-laptop/desktop/university/oop/lab6_7_iteratia2/sorteandfilter.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/razvan-laptop/desktop/university/oop/lab6_7_iteratia2/ui.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/razvan-laptop/desktop/university/oop/lab6_7_iteratia2/service.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/razvan-laptop/desktop/university/oop/lab6_7_iteratia2/repository.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/razvan-laptop/desktop/university/oop/lab6_7_iteratia2/mylist.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/razvan-laptop/desktop/university/oop/lab6_7_iteratia2/locatar.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        }
+      ]
+    }
+  ]
+}

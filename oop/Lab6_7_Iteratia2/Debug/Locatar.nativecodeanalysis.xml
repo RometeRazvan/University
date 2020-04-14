@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Razvan-Laptop\Desktop\University\oop\Lab6_7_Iteratia2\</FILEPATH>
+      <FILENAME>Locatar.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Locatar', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Locatar::{ctor}</FUNCTION>
+    <DECORATED>??0Locatar@@QAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

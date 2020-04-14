@@ -1,0 +1,19 @@
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\bin\Debug\LabCSharp V2.exe.config
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\bin\Debug\LabCSharp V2.exe
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\bin\Debug\LabCSharp V2.pdb
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\obj\Debug\LabCSharp V2.csprojAssemblyReference.cache
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\obj\Debug\LabCSharp_V2.Properties.Resources.resources
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\obj\Debug\LabCSharp V2.csproj.GenerateResource.cache
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\obj\Debug\LabCSharp V2.csproj.CoreCompileInputs.cache
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\obj\Debug\LabCSharp V2.exe
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\obj\Debug\LabCSharp V2.pdb
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\obj\Debug\LabCSharp_V2.Form1.resources
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\bin\Debug\System.Data.SQLite.dll
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\bin\Debug\System.Data.SQLite.xml
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\obj\Debug\LabCSharp V2.csproj.CopyComplete
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\bin\Debug\Dapper.dll
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\bin\Debug\Dapper.xml
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\bin\Debug\Database\Database.db
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\bin\Debug\Mono.Data.Sqlite.dll
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp V2\bin\Debug\bin\Debug\Database.db

@@ -11,6 +11,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
+import java.sql.Connection;
 
 
 public class Main extends Application {
@@ -56,11 +57,12 @@ public class Main extends Application {
             primaryStage.setScene(scene);
             primaryStage.setResizable(false);
             primaryStage.show();*/
+
+
         }
         catch (Exception e) {
             logger.error(e);
         }
-
     }
 
 }

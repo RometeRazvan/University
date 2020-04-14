@@ -1,0 +1,17 @@
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\bin\Debug\netcoreapp3.1\LabCSharp.exe
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\bin\Debug\netcoreapp3.1\LabCSharp.deps.json
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\bin\Debug\netcoreapp3.1\LabCSharp.runtimeconfig.json
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\bin\Debug\netcoreapp3.1\LabCSharp.runtimeconfig.dev.json
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\bin\Debug\netcoreapp3.1\LabCSharp.dll
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\bin\Debug\netcoreapp3.1\LabCSharp.pdb
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\obj\Debug\netcoreapp3.1\LabCSharp.csprojAssemblyReference.cache
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\obj\Debug\netcoreapp3.1\LabCSharp_MarkupCompile.cache
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\obj\Debug\netcoreapp3.1\LabCSharp_MarkupCompile.lref
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\obj\Debug\netcoreapp3.1\LabCSharp.g.resources
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\obj\Debug\netcoreapp3.1\LabCSharp.AssemblyInfoInputs.cache
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\obj\Debug\netcoreapp3.1\LabCSharp.AssemblyInfo.cs
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\obj\Debug\netcoreapp3.1\LabCSharp.dll
+C:\Users\Razvan-Laptop\Desktop\University\mpp\LabCSharp\LabCSharp\obj\Debug\netcoreapp3.1\LabCSharp.pdb
