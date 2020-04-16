@@ -2,13 +2,13 @@
 
 #include <string>
 #include <vector>
+#include <map>
 
 #include "Repository.h"
 #include "SorteAndFilter.h"
 #include "Validator.h"
 
-using std::string;
-using std::vector;
+using namespace std;
 
 class Service {
 
@@ -36,4 +36,7 @@ public:
 	const MyList<Locatar> filtreaza(const string& fel, const string& cuv);
 
 	const void sorteaza(const string& fel);
+
+	map<string, int> makeMap();
+
 };

@@ -1,14 +1,12 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <map>
 
 #include "Ui.h"
 #include "RepoException.h"
 
-using std::iostream;
-using std::vector;
-using std::string;
-using std::cin;
+using namespace std;
 
 UI::UI() noexcept {}
 
@@ -122,6 +120,17 @@ const void UI::filtreaza() {
 	}
 }
 
+const void UI::afiseazaMap() {
+
+	map<string, int> myMap = serv.makeMap();
+
+	cout << "\n";
+
+	for (auto it = myMap.begin(); it != myMap.end(); ++it)
+		cout << it->first << ": " << it->second << "\n";
+
+}
+
 const void UI::afiseaza() {
 
 	MyList<Locatar>& vec = serv.getAll();
@@ -137,10 +146,13 @@ const void UI::afiseaza() {
 const void UI::run() {
 
 	serv.adaugareService("13", "Razvan", "25mp", "Balcon");
-	serv.adaugareService("14", "Dragos", "26mp", "Decomandat");
-	serv.adaugareService("15", "Iulius", "27mp", "Open Space");
+	serv.adaugareService("14", "Dragos", "26mp", "Open Space");
+	serv.adaugareService("15", "Iulius", "27mp", "Balcon");
+	serv.adaugareService("16", "Dan", "25mp", "Balcon");
+	serv.adaugareService("17", "Andrei", "26mp", "Open Space");
+	serv.adaugareService("18", "Vasile", "27mp", "Mansarda");
 
-	const string menu = "\n1 - Adauga\n2 - Sterge\n3 - Modifica\n4 - Sorteaza\n5 - Filtreaza\n6 - Afiseaza\n0 - Exit\n";
+	const string menu = "\n1 - Adauga\n2 - Sterge\n3 - Modifica\n4 - Sorteaza\n5 - Filtreaza\n6 - Afiseaza tipuri : numar\n9 - Afiseaza\n0 - Exit\n";
 
 	cout << menu;
 
@@ -159,7 +171,8 @@ const void UI::run() {
 				else if (comanda == "3") modifica();
 				else if (comanda == "4") sorteaza();
 				else if (comanda == "5") filtreaza();
-				else if (comanda == "6") afiseaza();
+				else if (comanda == "6") afiseazaMap();
+				else if (comanda == "9") afiseaza();
 				else if (comanda == "0") return;
 
 			}

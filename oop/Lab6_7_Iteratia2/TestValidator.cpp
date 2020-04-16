@@ -6,7 +6,7 @@
 
 using namespace std;
 
-TestValidator::TestValidator() {}
+TestValidator::TestValidator() noexcept {}
 
 const void TestValidator::testAllValidator() {
 

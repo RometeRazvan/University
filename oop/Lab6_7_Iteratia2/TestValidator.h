@@ -8,7 +8,7 @@ class TestValidator {
 
 public:
 
-	TestValidator();
+	TestValidator() noexcept;
 
 	const void testAllValidator();
 

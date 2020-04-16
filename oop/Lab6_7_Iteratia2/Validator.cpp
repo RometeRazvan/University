@@ -1,5 +1,6 @@
 #include <string>
 #include <iostream>
+#include <string.h>
 
 #include "Validator.h"
 
@@ -45,14 +46,13 @@ const bool Validator::validateSuprafata(const string& suprafata) {
 
 const bool Validator::validateTip(const string& tip) {
 
-	const int n = 6;
-	string tipuri[n] = { "Open space", "Balcon", "Mansarda", "Decomandat", "Open Space", "Acoperis" };
-
+	constexpr int n = 6;
+	const string tipuri[n] = { "Open space", "Balcon", "Mansarda", "Decomandat", "Open Space", "Acoperis" };
+	
 	bool val = false;
 
-	for (unsigned int i = 0; i < n; ++i)
-		if (tipuri[i] == tip)
-			val = true;
+	if (tipuri->find(tip) != NULL)
+		val = true;
 
 	return val;
 }

@@ -16,7 +16,10 @@ namespace SGBD_Lab1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            string titlu = System.Configuration.ConfigurationManager.AppSettings["Titlu"];
+            Form1 form = new Form1();
+            form.Text = titlu;
+            Application.Run(form);
         }
     }
 }

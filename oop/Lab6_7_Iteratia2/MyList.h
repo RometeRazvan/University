@@ -71,7 +71,9 @@ Nod<T>* MyList<T>::copiaza(Nod<T>* nod) {
 	if (nod == nullptr)
 		return nullptr;
 
-	Nod<T>* n = new Nod<T>(nod->val);
+	Nod<T>* n = nullptr;
+
+	n = new Nod<T>(nod->val);
 	n->urm = copiaza(nod->urm);
 
 	return n;

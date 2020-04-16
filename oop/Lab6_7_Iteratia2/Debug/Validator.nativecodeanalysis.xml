@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Razvan-Laptop\Desktop\University\oop\Lab6_7_Iteratia2\</FILEPATH>
+      <FILENAME>Validator.cpp</FILENAME>
+      <LINE>54</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'tipuri': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>Validator::validateTip</FUNCTION>
+    <DECORATED>?validateTip@Validator@@QAE?B_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>47</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

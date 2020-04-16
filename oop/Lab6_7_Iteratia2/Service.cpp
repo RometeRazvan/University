@@ -1,12 +1,11 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <map>
 
 #include "Service.h"
 
-using std::iostream;
-using std::vector;
-using std::string;
+using namespace std;
 
 const int Service::getLg() noexcept{
 	return repo.getSize();
@@ -55,4 +54,22 @@ const void Service::sorteaza(const string& fel) {
 	if (fel == "nume") saf.sorteza(repo.getAll(), sortNume);
 	else if (fel == "suprafata") saf.sorteza(repo.getAll(), sortSuprafata);
 	else saf.sorteza(repo.getAll(), sortTipSuprafata);
+}
+
+map<string, int> Service::makeMap() {
+
+	MyList<Locatar> &myList = getAll();
+	map<string, int> myMap;
+
+	const unsigned int size = myList.size();
+	for (unsigned int i = 0; i < size; ++i) {
+		const Locatar &locatar = myList.at(i);
+
+		if (myMap.find(locatar.getTip()) == myMap.end()) {
+			myMap.insert(pair<string, int>(locatar.getTip(), 1));
+		}
+		else ++myMap[locatar.getTip()];
+	}
+
+	return myMap;
 }

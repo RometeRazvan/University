@@ -20,6 +20,8 @@ public:
 
 	const void testSorteaza();
 
+	const void testMap();
+
 	const void testAllService();
 
 };

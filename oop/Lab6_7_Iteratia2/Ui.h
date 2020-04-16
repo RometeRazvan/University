@@ -22,6 +22,8 @@ public:
 
 	const void filtreaza();
 
+	const void afiseazaMap();
+
 	const void afiseaza();
 
 	const void run();

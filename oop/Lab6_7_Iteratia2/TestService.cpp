@@ -2,12 +2,11 @@
 #include <vector>
 #include <cassert>
 #include <iostream>
+#include <map>
 
 #include "TestService.h"
 
-using std::string;
-using std::iostream;
-using std::vector;
+using namespace std;
 
 Service generateService() {
 	Service serv{};
@@ -158,6 +157,25 @@ const void TestService::testSorteaza() {
 	cout << "\n";
  }
 
+const void TestService::testMap() {
+
+	Service serv{};
+
+	serv.adaugareService("13", "Razvan", "25mp", "Balcon");
+	serv.adaugareService("14", "Dragos", "26mp", "Open Space");
+	serv.adaugareService("15", "Iulius", "27mp", "Balcon");
+	serv.adaugareService("16", "Dan", "25mp", "Balcon");
+	serv.adaugareService("17", "Andrei", "26mp", "Open Space");
+	serv.adaugareService("18", "Vasile", "27mp", "Mansarda");
+
+	map<string, int> myMap = serv.makeMap();
+
+	assert(myMap["Balcon"] == 3);
+	assert(myMap["Open Space"] == 2);
+	assert(myMap["Mansarda"] == 1);
+
+}
+
 const void TestService::testAllService() {
 
 	testAdaugaService();
@@ -166,6 +184,7 @@ const void TestService::testAllService() {
 	testGetAll();
 	testFiltreaza();
 	testSorteaza();
+	testMap();
 
 	cout << "Finalizare testAll Service !!!\n";
 }

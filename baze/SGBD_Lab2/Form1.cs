@@ -29,11 +29,17 @@ namespace SGBD_Lab1
         {
             InitializeComponent();
 
-
-            strConn = System.Configuration.ConfigurationManager.AppSettings["StringConnection"];
-            tabel1 = System.Configuration.ConfigurationManager.AppSettings["Parinte"];
-            tabel2 = System.Configuration.ConfigurationManager.AppSettings["Copil"];
-            idTable1 = System.Configuration.ConfigurationManager.AppSettings["Coloana"];
+            try
+            {
+                strConn = System.Configuration.ConfigurationManager.AppSettings["StringConnection"];
+                tabel1 = System.Configuration.ConfigurationManager.AppSettings["Parinte"];
+                tabel2 = System.Configuration.ConfigurationManager.AppSettings["Copil"];
+                idTable1 = System.Configuration.ConfigurationManager.AppSettings["Coloana"];
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
 
@@ -75,7 +81,7 @@ namespace SGBD_Lab1
                 conn.Open();
 
                 da.Fill(ds, tabel1);
-                //MessageBox.Show("Connect with sql server");
+
                 dataGridView1.DataSource = ds.Tables[tabel1];
 
                 conn.Close();
