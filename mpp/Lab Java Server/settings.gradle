@@ -1,0 +1,8 @@
+rootProject.name = 'Lab Java Server'
+include 'Service'
+include 'Model'
+include 'Persistance'
+include 'Network'
+include 'Server'
+include 'Client'
+
