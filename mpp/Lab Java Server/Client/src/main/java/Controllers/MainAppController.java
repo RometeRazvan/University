@@ -1,37 +1,37 @@
 package Controllers;
 
+import IService.IServiceCaritate;
+import IService.IServiceDonatii;
 import Models.Caritate;
 import Models.Donatie;
-import Observer.IObserver;
-import Proxy.ProxyServiceUser;
+import Observer.Observable;
+import Proxy.ProxyServiceCaritate;
+import Proxy.ProxySeviceDonatii;
 import Service.ServiceCaritate;
 import Service.ServiceDonatie;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class MainAppController implements IObserver {
+public class MainAppController implements Observable {
 
     private static final Logger logger = LogManager.getLogger();
 
-    private ServiceDonatie sd;
-    private ServiceCaritate sc;
+    private IServiceDonatii sd;
+    private IServiceCaritate sc;
 
     private Stage stage;
 
@@ -41,9 +41,9 @@ public class MainAppController implements IObserver {
     @FXML private TableView<Caritate> tableCazuri = new TableView<>();
     @FXML private TableView<Donatie> tableDonatii = new TableView<>();
 
-    public void setData() {
-        this.sd = new ServiceDonatie();
-        this.sc = new ServiceCaritate();
+    public void setData(IServiceDonatii sd, IServiceCaritate sc) {
+        this.sd = sd;
+        this.sc = sc;
         loadTables();
     }
 
@@ -80,7 +80,17 @@ public class MainAppController implements IObserver {
     private void loadFromDatabase() {
         tableCazuri.getItems().clear();
 
-        for(Caritate c : sc.findAll()) {
+        List<Caritate> list = (List<Caritate>) sc.findAll();
+
+        for(Caritate c : list) {
+            tableCazuri.getItems().add(c);
+        }
+    }
+
+    private void loadFromDatabase2(List<Caritate> list) {
+        tableCazuri.getItems().clear();
+
+        for(Caritate c : list) {
             tableCazuri.getItems().add(c);
         }
     }
@@ -128,7 +138,7 @@ public class MainAppController implements IObserver {
 
             sd.save(nume, adresa, nrTel, suma, caritate.getNume());
 
-            loadFromDatabase();
+            //loadFromDatabase();
 
             clearFromAdd();
 
@@ -188,7 +198,7 @@ public class MainAppController implements IObserver {
     }
 
     @Override
-    public void reloadList(List<Caritate> list) {
-
+    public void getNotified(List<Caritate> list) {
+        loadFromDatabase2(list);
     }
 }

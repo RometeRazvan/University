@@ -14,6 +14,20 @@ public class Response implements Serializable {
     private Iterable<Caritate> listCaritate;
     private Iterable<Donatie> listDonatie;
     private User user;
+    private Donatie donatie;
+
+    public Donatie getDonatie() {
+        return donatie;
+    }
+
+    public void setDonatie(Donatie donatie) {
+        this.donatie = donatie;
+    }
+
+    public Response(String mesaj, Donatie donatie) {
+        this.mesaj = mesaj;
+        this.donatie = donatie;
+    }
 
     public Response(String mesaj, Iterable<Caritate> listCaritate) {
         this.mesaj = mesaj;

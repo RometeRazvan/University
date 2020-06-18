@@ -1,0 +1,3 @@
+Razvan;Maestru Candidat;2200;
+Iulius;Maestru;2400;
+Dan;Mare Maestru;2600;

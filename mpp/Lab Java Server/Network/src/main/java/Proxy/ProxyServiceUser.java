@@ -3,7 +3,7 @@ package Proxy;
 import IService.IServiceUser;
 import Models.Caritate;
 import Models.User;
-import Observer.IObserver;
+import Observer.Observable;
 import Utils.Request;
 import Utils.Response;
 
@@ -14,13 +14,13 @@ import java.net.Socket;
 import java.sql.Connection;
 import java.util.List;
 
-public class ProxyServiceUser implements IServiceUser {
+public class ProxyServiceUser implements IServiceUser, Observable {
 
     private ObjectInputStream inputStream;
     private ObjectOutputStream outputStream;
     private Socket connection;
     private ResponseReader responseReader;
-    private IObserver client;
+    private Observable client;
 
     public ProxyServiceUser(ObjectInputStream inputStream, ObjectOutputStream outputStream, Socket connection, ResponseReader responseReader) {
         this.inputStream = inputStream;
@@ -30,8 +30,8 @@ public class ProxyServiceUser implements IServiceUser {
     }
 
     @Override
-    public User findByName(String nume, IObserver observer) {
-        this.client = observer;
+    public User findByName(String nume, Observable observable) {
+        this.client = observable;
 
         Request request = new Request("LogIn", nume);
 
@@ -40,8 +40,6 @@ public class ProxyServiceUser implements IServiceUser {
             outputStream.flush();
 
             Response response = responseReader.readResponse();
-
-            System.out.println("!!!!!");
 
             return response.getUser();
 
@@ -54,6 +52,37 @@ public class ProxyServiceUser implements IServiceUser {
         return null;
     }
 
+    public void disconnect() {
+
+        Request request = new Request("LogOut");
+
+        try {
+            outputStream.writeObject(request);
+            outputStream.flush();
+
+            inputStream.close();
+            outputStream.close();
+
+            connection.close();
+
+            client = null;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        responseReader.logOut();
+    }
+
+    @Override
+    public void notifyClients(List<Caritate> list) {
+        getNotified(list);
+    }
+
+    @Override
+    public void getNotified(List<Caritate> list) {
+        this.client.getNotified(list);
+    }
+
     @Override
     public User findOne(int id) {
         return null;
@@ -62,10 +91,5 @@ public class ProxyServiceUser implements IServiceUser {
     @Override
     public Connection getConnection() {
         return null;
-    }
-
-    @Override
-    public void notifyClients(List<Caritate> l) {
-        this.client.reloadList(l);
     }
 }

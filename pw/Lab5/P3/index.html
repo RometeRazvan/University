@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title> Problema 3 </title>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+		
+		<script>
+		
+			$(document).ready(function(){
+				
+				var nrTurned = 0;
+				var otherChild;
+				
+				$(".tableCell").each(function(){
+					$(this).css({"padding": "20px", "height": "100px", "width": "100px", "text-align": "center"});
+				});
+				
+				$(".cell").each(function(){
+					$(this).css({"font-size": "60px", "display": "none"})
+				});
+				
+				$(".tableCell").click(function(){
+					
+					var child = $(this).children();
+					child.css({"font-size": "60px", "display": "block"});
+					
+					if(nrTurned == 0) {
+						nrTurned = 1;
+						otherChild = child;
+					}
+					else {
+						nrTurned = 0;
+						
+						if(child.text() != otherChild.text()) {
+							setTimeout(function(){
+								child.css({"font-size": "60px", "display": "none"});
+								otherChild.css({"font-size": "60px", "display": "none"});
+							}, 1000);
+						}
+						
+					}
+				});
+			});
+		
+		</script>
+	
+	</head>
+	
+	<body>
+	
+		<table border = "1">
+		
+			<tr>
+			
+				<td class = "tableCell"> <div class = "cell"> 1 </div> </td>
+				<td class = "tableCell"> <div class = "cell"> 2 </div> </td>
+			
+			</tr>
+		
+			<tr>
+			
+				<td class = "tableCell"> <div class = "cell"> 3 </div> </td>
+				<td class = "tableCell"> <div class = "cell"> 3 </div> </td>
+			
+			</tr>
+			
+			<tr>
+			
+				<td class = "tableCell"> <div class = "cell"> 2 </div> </td>
+				<td class = "tableCell"> <div class = "cell"> 1 </div> </td>
+			
+			</tr>
+		
+		</table>		
+		
+	</body>
+
+</html>

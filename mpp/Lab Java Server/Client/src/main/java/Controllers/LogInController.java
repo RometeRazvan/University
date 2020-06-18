@@ -2,20 +2,16 @@ package Controllers;
 
 import IService.IServiceUser;
 import Models.User;
-import Observer.IObserver;
-import Service.ServiceUser;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.sql.SQLException;
 
 public class LogInController {
     private static final Logger logger = LogManager.getLogger();
@@ -45,7 +41,6 @@ public class LogInController {
         try {
             String name = userField.getText();
             String password = passwordField.getText();
-
 
             User user = su.findByName(name, client);
             User user2 = new User(name, password);
@@ -80,7 +75,9 @@ public class LogInController {
 
     @FXML
     private void exit() {
-        this.stage.close();
+        newStage.close();
+        su.disconnect();
+        stage.close();
     }
 
     private void maiApp(String name) {

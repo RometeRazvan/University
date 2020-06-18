@@ -6,6 +6,7 @@ import IService.IServiceUser;
 import Models.User;
 import Proxy.ProxyServiceCaritate;
 import Proxy.ProxyServiceUser;
+import Proxy.ProxySeviceDonatii;
 import Proxy.ResponseReader;
 import Service.ServiceDonatie;
 import Service.ServiceUser;
@@ -45,7 +46,7 @@ public class Main extends Application {
         responseReader.startReader();
 
         serviceCaritate = new ProxyServiceCaritate(inputStream, outputStream, connection, responseReader);
-        serviceDonatii = new ServiceDonatie();
+        serviceDonatii = new ProxySeviceDonatii(inputStream, outputStream, connection, responseReader);
         serviceUser = new ProxyServiceUser(inputStream, outputStream, connection, responseReader);
 
         responseReader.setServiceUser(serviceUser);
@@ -84,7 +85,8 @@ public class Main extends Application {
             Scene scene = new Scene(root2);
             newStage.setScene(scene);
             MainAppController mac = loader2.getController();
-            mac.setData();
+
+            mac.setData(serviceDonatii, serviceCaritate);
             mac.setStage(newStage);
 
             MainAppController mainAppController = loader2.getController();

@@ -2,7 +2,6 @@ package Proxy;
 
 import IService.IServiceCaritate;
 import Models.Caritate;
-import Observer.IObserver;
 import Utils.Request;
 import Utils.Response;
 

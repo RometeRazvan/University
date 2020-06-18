@@ -2,31 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="643ee45f-d12c-4ccb-80b5-b4f7e4839fe1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mpp/Lab2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpp/Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/.vs/Lab2_4/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/.vs/Lab2_4/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/.vs/Lab2_4/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/.vs/Lab2_4/v16/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Debug/Lab2_4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Debug/Lab2_4.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Debug/Lab2_4.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Debug/Lab2_4.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Debug/Lab2_4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Debug/Lab2_4.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Domain.obj" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Domain.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.log" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/Lab2_4.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/Lab2_4.lastbuildstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Lab2_4.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Source.obj" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/Source.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/TestDomain.obj" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/TestDomain.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/vc141.idb" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/vc141.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/vc141.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Debug/vc141.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Domain.c" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Domain.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Domain.h" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/Domain.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/TestDomain.c" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab2_4/Lab2_4/TestDomain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mpp/Java_RMI/Persistence/src/main/java/IRepository/ICazuriCaritabileRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mpp/Java_RMI/Persistence/src/main/java/IRepository/IDonatiiRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mpp/Java_RMI/Persistence/src/main/java/IRepository/IUsersRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mpp/Java_RMI/Persistence/src/main/java/Repository/CazuriCaritabileRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mpp/Java_RMI/Persistence/src/main/java/Repository/DonatiiRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mpp/Java_RMI/Persistence/src/main/java/Repository/UsersRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mpp/Java_RMI/Persistence/src/main/java/Tools/DBAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mpp/Java_RMI/Persistence/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mpp/Java_RMI/Persistence/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mpp/Java_RMI/Service/src/main/java/Services/ChatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mpp/Java_RMI/Service/src/main/java/Services/IObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/BazeDeDate/BAZE" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/BazeDeDate/BAZE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Client/build/classes/java/main/Controllers/LogInController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Client/build/classes/java/main/Controllers/LogInController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Client/build/classes/java/main/Controllers/MainAppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Client/build/classes/java/main/Controllers/MainAppController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Client/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Client/build/classes/java/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Client/src/main/java/Controllers/LogInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Client/src/main/java/Controllers/LogInController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Client/src/main/java/Controllers/MainAppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Client/src/main/java/Controllers/MainAppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Client/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Client/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/classes/java/main/Protocol/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/classes/java/main/Protocol/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/classes/java/main/Proxy/ProxyServiceCaritate.class" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/classes/java/main/Proxy/ProxyServiceCaritate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/classes/java/main/Proxy/ProxyServiceUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/classes/java/main/Proxy/ProxyServiceUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/classes/java/main/Proxy/ResponseReader$ReaderThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/classes/java/main/Proxy/ResponseReader$ReaderThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/classes/java/main/Proxy/ResponseReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/classes/java/main/Proxy/ResponseReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/classes/java/main/Utils/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/classes/java/main/Utils/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/classes/java/main/Utils/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/classes/java/main/Utils/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/libs/Network-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Network/build/libs/Network-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Network/src/main/java/Protocol/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Network/src/main/java/Protocol/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Network/src/main/java/Proxy/ProxyServiceCaritate.java" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Network/src/main/java/Proxy/ProxyServiceCaritate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Network/src/main/java/Proxy/ProxyServiceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Network/src/main/java/Proxy/ProxyServiceUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Network/src/main/java/Proxy/ResponseReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Network/src/main/java/Proxy/ResponseReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Network/src/main/java/Utils/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Network/src/main/java/Utils/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Network/src/main/java/Utils/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Network/src/main/java/Utils/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Server/build/classes/java/main/ServerProject/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Server/build/classes/java/main/ServerProject/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Server/src/main/java/ServerProject/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Server/src/main/java/ServerProject/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Service/build/classes/java/main/IService/IServiceUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Service/build/classes/java/main/IService/IServiceUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Service/build/classes/java/main/Observer/IObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Service/build/classes/java/main/Service/ServiceUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Service/build/classes/java/main/Service/ServiceUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Service/build/libs/Service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Service/build/libs/Service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Service/src/main/java/IService/IServiceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Service/src/main/java/IService/IServiceUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Service/src/main/java/Observer/IObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/Lab Java Server/Service/src/main/java/Service/ServiceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/Lab Java Server/Service/src/main/java/Service/ServiceUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/LabCSharp V2/obj/Debug/LabCSharp V2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/LabCSharp V2/obj/Debug/LabCSharp V2.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpp/LabCSharp_V3/.vs/LabCSharp_V3/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/mpp/LabCSharp_V3/.vs/LabCSharp_V3/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab8/.vs/Lab6_7/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab8/.vs/Lab6_7/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab8/.vs/Lab6_7/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab8/.vs/Lab6_7/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab8/.vs/Lab6_7/v16/ipch/AutoPCH/a4c363adeaca3aab/REPOSITORY.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab8/.vs/Lab6_7/v16/ipch/AutoPCH/a4c363adeaca3aab/REPOSITORY.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/Lab8/LastCoverageResults.log" beforeDir="false" afterPath="$PROJECT_DIR$/oop/Lab8/LastCoverageResults.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pw/Lab3/P1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pw/Lab3/P1/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pw/Lab3/P2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pw/Lab3/P2/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pw/Lab3/P3_v1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pw/Lab3/P3_v1/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pw/Lab3/P3_v2/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pw/Lab3/P3_v2/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pw/Lab3/P3_v2/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pw/Lab3/P3_v2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pw/Lab3/P3_v2/script.js" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,20 +81,9 @@
   </component>
   <component name="ProjectId" id="1Ykkufdt5iwp72eU4I4MKQagBF1" />
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -63,6 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583494203411</updated>
       <workItem from="1583494204632" duration="4000" />
+      <workItem from="1589624973579" duration="8000" />
     </task>
     <servers />
   </component>
@@ -74,10 +108,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1589624978238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589624978238" />
   </component>
 </project>

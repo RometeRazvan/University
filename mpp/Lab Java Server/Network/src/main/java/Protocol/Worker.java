@@ -4,19 +4,19 @@ import IService.IServiceCaritate;
 import IService.IServiceDonatii;
 import IService.IServiceUser;
 import Models.Caritate;
+import Models.Donatie;
 import Models.User;
-import Observer.IObserver;
+import Observer.Observable;
 import Utils.Request;
 import Utils.Response;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.io.Serializable;
 import java.net.Socket;
 import java.util.List;
 
-public class Worker implements Runnable, IObserver {
+public class Worker implements Runnable, Observable {
 
     private IServiceCaritate serviceCaritate;
     private IServiceDonatii serviceDonatii;
@@ -42,19 +42,6 @@ public class Worker implements Runnable, IObserver {
         }
         catch (IOException ex) {
             System.out.println(ex.getMessage());
-        }
-    }
-
-    @Override
-    public void reloadList(List<Caritate> list) {
-        Response response = new Response("Observer");
-        response.setListCaritate(list);
-
-        try {
-            output.writeObject(response);
-            output.flush();
-        } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 
@@ -87,14 +74,21 @@ public class Worker implements Runnable, IObserver {
             case "findAll":
                 findAll();
                 break;
+            case "LogOut":
+                logOut();
+                break;
+            case "SaveDonatie":
+                saveDonatie(request);
+                break;
+            case "listaDonatii":
+                getListDonatii(request);
+                break;
         }
     }
 
     private void login(Request request) {
 
-        System.out.println(request.getUser().getNume());
-
-        User user = serviceUser.findByName(request.getUser().getNume(), this);
+        User user = serviceUser.findByName(request.getUserName(), this);
 
         Response response = new Response("Cautare efectuata", user);
 
@@ -119,4 +113,56 @@ public class Worker implements Runnable, IObserver {
         }
     }
 
+    private void logOut() {
+        connected = false;
+    }
+
+    public void notifyClients(List<Caritate> list) {
+        serviceUser.notifyClients(list);
+    }
+
+    @Override
+    public void getNotified(List<Caritate> list) {
+        Response response = new Response("getNotified", list);
+
+        try {
+            output.writeObject(response);
+            output.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void saveDonatie(Request request) {
+        Donatie donatie = request.getDonatie();
+
+        Donatie donatie2 = serviceDonatii.save(donatie.getNume(), donatie.getAdresa(), donatie.getNrTel(), donatie.getSuma(), request.getNumeCaritate());
+
+        Response response = new Response("Salvat Donatie", donatie2);
+
+        try {
+            output.writeObject(response);
+            output.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        notifyClients((List<Caritate>) serviceCaritate.findAll());
+    }
+
+    public void getListDonatii(Request request) {
+        String nume = request.getDonationName();
+
+        List<Donatie> list = (List<Donatie>) serviceDonatii.searchByName(nume);
+
+        Response response = new Response("Return lista donatii");
+        response.setListDonatie(list);
+
+        try {
+            output.writeObject(response);
+            output.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

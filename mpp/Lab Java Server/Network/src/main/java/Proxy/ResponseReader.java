@@ -40,7 +40,6 @@ public class ResponseReader {
         try {
             System.out.println("Citire raspuns ... ");
             response = queue.take();
-            System.out.println("!!!!!!");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -49,7 +48,7 @@ public class ResponseReader {
     }
 
     public void logOut() {
-        this.finished = false;
+        this.finished = true;
     }
 
     public void startReader(){
@@ -68,16 +67,19 @@ public class ResponseReader {
 
                     System.out.println("Raspuns primit ... ");
 
-                    if(finalResponse.getMesaj().equals("Observer"))
+                    if(finalResponse.getMesaj().equals("getNotified"))
                         serviceUser.notifyClients((List<Caritate>) finalResponse.getListCaritate());
                     else {
-                        queue.put(finalResponse);
+                        try {
+                            queue.put(finalResponse);
+                        }
+                        catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
                     }
                 } catch (IOException e) {
                     e.printStackTrace();
                 } catch (ClassNotFoundException e) {
-                    e.printStackTrace();
-                } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }

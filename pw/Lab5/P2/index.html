@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		
+		<script>
+		
+			$(document).ready(function(){
+				$("#trimite").click(function(){
+				
+					var nume = $("#nume");
+					var data = $("#data");
+					var varsta = $("#varsta");
+					var email = $("#email");
+	
+					var numeRx = new RegExp('^[A-Za-z ]+$');
+					var cDate = new Date();
+					var varstRx = new RegExp('^[1-9][0-9]*$');
+					var emailRx = new RegExp('[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$');
+					
+					var exceptionStr = "Urmatoarele campuri sunt invalide: ";
+					var exception = exceptionStr;
+					
+					nume.css("border-color", "");
+					data.css("border-color", "");
+					varsta.css("border-color", "");
+					email.css("border-color", "");
+					
+					if(!numeRx.test(nume.val())) {
+						exception += " nume";
+						nume.css("border-color", "red");
+					}
+					
+					var ddata = data.val();
+					var cDate = new Date();
+					ddata = new Date(ddata);
+					
+					if(ddata > cDate || data.val() == "") {
+						exception += " data";
+						data.css("border-color", "red");
+					}
+					
+					if(!varstRx.test(varsta.val())) {
+						exception += " varsta";
+						varsta.css("border-color", "red");
+					}
+					
+					if(!emailRx.test(email.val())) {
+						exception += " email";
+						email.css("border-color", "red");
+					}
+					
+					if(exception == exceptionStr)
+						$("#rezultat").text("Datele sunt corecte");
+					else $("#rezultat").text(exception);
+				})
+			});
+		
+		</script>
+	
+		<title> Problema 2 </title>
+	
+	</head>
+	
+	<body>
+	
+		<table>
+		
+			<tr>
+			
+				<td> Nume: </td>
+				<td> <input type = "text" id = "nume"> </td>
+			
+			</tr>
+			
+			<tr>
+			
+				<td> Data nasterii: </td>
+				<td> <input type = "date" id = "data"> </td>
+			
+			</tr>
+			
+			<tr>
+			
+				<td> Varsta: </td>
+				<td> <input type = "text" id = "varsta"> </td>
+			
+			</tr>
+			
+			<tr>
+			
+				<td> E-mail: </td>
+				<td> <input type = "text" id = "email"> </td>
+			
+			</tr>
+			
+			<tr>
+				<td>
+					<button id = "trimite">Trimite</button>
+				</td>
+			</tr>
+		
+		</table>
+		
+		<p id = "rezultat"> </p>
+	
+	</body>
+	
+</html>

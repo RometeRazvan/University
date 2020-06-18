@@ -27,6 +27,8 @@ public class Server {
             server.start();
         } catch (ServerException e) {
             e.printStackTrace();
+        } finally {
+            server.stop();
         }
     }
 
