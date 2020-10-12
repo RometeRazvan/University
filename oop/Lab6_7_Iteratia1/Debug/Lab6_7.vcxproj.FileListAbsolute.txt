@@ -1,4 +1,0 @@
-C:\Users\Razvan-Laptop\Desktop\University\oop\Lab6_7\Debug\Lab6_7.exe
-C:\Users\Razvan-Laptop\Desktop\University\oop\Lab6_7\Debug\Lab6_7.pdb
-C:\Users\Razvan-Laptop\Desktop\University\oop\Lab6_7\Debug\Lab6_7.exe.lastcodeanalysissucceeded
-C:\Users\Razvan-Laptop\Desktop\University\oop\Lab6_7\Debug\NativeCodeAnalysis.read.1.tlog

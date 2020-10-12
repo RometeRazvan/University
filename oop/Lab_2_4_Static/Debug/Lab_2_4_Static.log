@@ -1,4 +1,0 @@
-﻿  Source.c
-C:\Users\Razvan-Laptop\Desktop\University\oop\Lab_2_4_Static\Source.c(12,8): warning C4013: 'system' undefined; assuming extern returning int
-Source.obj : error LNK2019: unresolved external symbol _testDomainAll referenced in function _testAll
-C:\Users\Razvan-Laptop\Desktop\University\oop\Lab_2_4_Static\Debug\Lab_2_4_Static.exe : fatal error LNK1120: 1 unresolved externals

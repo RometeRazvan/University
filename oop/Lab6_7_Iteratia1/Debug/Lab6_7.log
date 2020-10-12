@@ -1,3 +1,0 @@
-﻿  Service.cpp
-  Lab6_7.vcxproj -> C:\Users\Razvan-Laptop\Desktop\University\oop\Lab6_7\Debug\Lab6_7.exe
-C:\Users\Razvan-Laptop\Desktop\University\oop\Lab6_7\Locatar.cpp(18): warning C26432: If you define or delete any default operation in the type 'class Locatar', define or delete them all (c.21).

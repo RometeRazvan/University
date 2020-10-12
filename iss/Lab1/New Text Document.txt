@@ -1,4 +1,0 @@
-javafx
-sqlite
-desktop
-spring
